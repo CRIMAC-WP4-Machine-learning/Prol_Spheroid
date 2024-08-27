@@ -1,2025 +1,1962 @@
- c =    0.75825202144569E+01; m =     0
+ c =    0.72270895794043E+01; m =     0
  l =      0
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.22880802842819      0     s1d =  0.00000000000000      0
+            s1 =  1.21313273897199      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.22880802842819      0     s1d =  0.00000000000000      0
+            s1 =  1.21313273897199      0     s1d =  0.00000000000000      0
  l =      1
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.50116821573144      0
+            s1 =  0.00000000000000      0     s1d =  4.32075259125295      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.50116821573144      0
+            s1 =  0.00000000000000      0     s1d =  4.32075259125295      0
  l =      2
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.04164475205784     -1     s1d =  0.00000000000000      0
+            s1 = -7.88460649940682     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.04164475205784     -1     s1d =  0.00000000000000      0
+            s1 = -7.88460649940682     -1     s1d =  0.00000000000000      0
  l =      3
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -4.69118377651654      0
+            s1 =  0.00000000000000      0     s1d = -4.44751997525346      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -4.69118377651654      0
+            s1 =  0.00000000000000      0     s1d = -4.44751997525346      0
  l =      4
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     11 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  6.17931190512748     -1     s1d =  0.00000000000000      0
+            s1 =  6.13355792649456     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  6.17931190512748     -1     s1d =  0.00000000000000      0
+            s1 =  6.13355792649456     -1     s1d =  0.00000000000000      0
  l =      5
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.93484473404494      0
+            s1 =  0.00000000000000      0     s1d =  4.88957512073573      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.93484473404494      0
+            s1 =  0.00000000000000      0     s1d =  4.88957512073573      0
  l =      6
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     11 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -6.60326459192413     -1     s1d =  0.00000000000000      0
+            s1 = -6.73388557219396     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -6.60326459192413     -1     s1d =  0.00000000000000      0
+            s1 = -6.73388557219396     -1     s1d =  0.00000000000000      0
  l =      7
       Meixner-Schafke normalization converged in     11 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -6.53397811743443      0
+            s1 =  0.00000000000000      0     s1d = -6.50626877373319      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -6.53397811743443      0
+            s1 =  0.00000000000000      0     s1d = -6.50626877373319      0
  l =      8
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.20828418602668     -1     s1d =  0.00000000000000      0
+            s1 =  7.27724257298577     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.20828418602668     -1     s1d =  0.00000000000000      0
+            s1 =  7.27724257298577     -1     s1d =  0.00000000000000      0
  l =      9
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.09080779654242      0
+            s1 =  0.00000000000000      0     s1d =  8.05316993756565      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.09080779654242      0
+            s1 =  0.00000000000000      0     s1d =  8.05316993756565      0
  l =     10
-      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.47291015119391     -1     s1d =  0.00000000000000      0
+            s1 = -7.51737061051910     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.47291015119391     -1     s1d =  0.00000000000000      0
+            s1 = -7.51737061051910     -1     s1d =  0.00000000000000      0
  l =     11
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -9.62496066405235      0
+            s1 =  0.00000000000000      0     s1d = -9.58885110442253      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -9.62496066405235      0
+            s1 =  0.00000000000000      0     s1d = -9.58885110442253      0
  l =     12
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.61929684444256     -1     s1d =  0.00000000000000      0
+            s1 =  7.65098789920204     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.61929684444256     -1     s1d =  0.00000000000000      0
+            s1 =  7.65098789920204     -1     s1d =  0.00000000000000      0
  l =     13
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.11670888793855      1
+            s1 =  0.00000000000000      0     s1d =  1.11340196325575      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.11670888793855      1
+            s1 =  0.00000000000000      0     s1d =  1.11340196325575      1
  l =     14
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.71001174625066     -1     s1d =  0.00000000000000      0
+            s1 = -7.73383004293804     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.71001174625066     -1     s1d =  0.00000000000000      0
+            s1 = -7.73383004293804     -1     s1d =  0.00000000000000      0
  l =     15
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.27188307190895      1
+            s1 =  0.00000000000000      0     s1d = -1.26887820502048      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.27188307190895      1
+            s1 =  0.00000000000000      0     s1d = -1.26887820502048      1
  l =     16
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.76986679133705     -1     s1d =  0.00000000000000      0
+            s1 =  7.78855789130728     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.76986679133705     -1     s1d =  0.00000000000000      0
+            s1 =  7.78855789130728     -1     s1d =  0.00000000000000      0
  l =     17
       Meixner-Schafke normalization converged in     15 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.42785790373263      1
+            s1 =  0.00000000000000      0     s1d =  1.42512268981702      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.42785790373263      1
+            s1 =  0.00000000000000      0     s1d =  1.42512268981702      1
  l =     18
       Meixner-Schafke normalization converged in     16 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.80496327023829     -1     s1d =  0.00000000000000      0
+            s1 = -7.82169331621834     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.80496327023829     -1     s1d =  0.00000000000000      0
+            s1 = -7.82169331621834     -1     s1d =  0.00000000000000      0
  l =     19
       Meixner-Schafke normalization converged in     16 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.58446086551188      1
+            s1 =  0.00000000000000      0     s1d = -1.58195961971355      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.58446086551188      1
+            s1 =  0.00000000000000      0     s1d = -1.58195961971355      1
  l =     20
-      Meixner-Schafke normalization converged in     17 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.73172907767285     -1     s1d =  0.00000000000000      0
+            s1 =  7.76361491198712     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.73172907767285     -1     s1d =  0.00000000000000      0
+            s1 =  7.76361491198712     -1     s1d =  0.00000000000000      0
  l =     21
-      Meixner-Schafke normalization converged in     17 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.74155296188168      1
+            s1 =  0.00000000000000      0     s1d =  1.73925350733803      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.74155296188168      1
+            s1 =  0.00000000000000      0     s1d =  1.73925350733803      1
  l =     22
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.56703757638159     -1     s1d =  0.00000000000000      0
+            s1 = -6.70170682292265     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.56703757638159     -1     s1d =  0.00000000000000      0
+            s1 = -6.70170682292265     -1     s1d =  0.00000000000000      0
  l =     23
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.89902869084240      1
+            s1 =  0.00000000000000      0     s1d = -1.89690363448811      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.89902869084240      1
+            s1 =  0.00000000000000      0     s1d = -1.89690363448811      1
  l =     24
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.69107842364791     -1     s1d =  0.00000000000000      0
+            s1 =  6.81375111158499     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.69107842364791     -1     s1d =  0.00000000000000      0
+            s1 =  6.81375111158499     -1     s1d =  0.00000000000000      0
  l =     25
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.05680881439844      1
+            s1 =  0.00000000000000      0     s1d =  2.05483525884734      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.05680881439844      1
+            s1 =  0.00000000000000      0     s1d =  2.05483525884734      1
  l =     26
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
+      Meixner-Schafke normalization converged in     19 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.79536542601562     -1     s1d =  0.00000000000000      0
+            s1 = -6.90794750844111     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.79536542601562     -1     s1d =  0.00000000000000      0
- l =     27
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.21483352071181      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.21483352071181      1
- c =    0.75825202144569E+01; m =     1
+            s1 = -6.90794750844111     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     1
  l =      1
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.23293405171655      0     s1d =  0.00000000000000      0
+            s1 =  1.21774978461341      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.23293405171655      0     s1d =  0.00000000000000      0
+            s1 =  1.21774978461341      0     s1d =  0.00000000000000      0
  l =      2
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.56924606558318      0
+            s1 =  0.00000000000000      0     s1d =  4.39767913405240      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.56924606558318      0
+            s1 =  0.00000000000000      0     s1d =  4.39767913405240      0
  l =      3
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.23159342521981     -1     s1d =  0.00000000000000      0
+            s1 = -8.12171337206570     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.23159342521981     -1     s1d =  0.00000000000000      0
+            s1 = -8.12171337206570     -1     s1d =  0.00000000000000      0
  l =      4
+      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -4.96017504723839      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -4.96017504723839      0
+ l =      5
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -5.13109919756136      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -5.13109919756136      0
- l =      5
-      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
-     s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.04202172700329     -1     s1d =  0.00000000000000      0
+            s1 =  7.04651292411304     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.04202172700329     -1     s1d =  0.00000000000000      0
+            s1 =  7.04651292411304     -1     s1d =  0.00000000000000      0
  l =      6
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.94338620457972      0
+            s1 =  0.00000000000000      0     s1d =  5.86887619509486      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.94338620457972      0
+            s1 =  0.00000000000000      0     s1d =  5.86887619509486      0
  l =      7
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     11 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.13703704583681     -1     s1d =  0.00000000000000      0
+            s1 = -7.20315059958446     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.13703704583681     -1     s1d =  0.00000000000000      0
+            s1 = -7.20315059958446     -1     s1d =  0.00000000000000      0
  l =      8
       Meixner-Schafke normalization converged in     11 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -7.34275812064902      0
+            s1 =  0.00000000000000      0     s1d = -7.29824230813488      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -7.34275812064902      0
+            s1 =  0.00000000000000      0     s1d = -7.29824230813488      0
  l =      9
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.40975762490338     -1     s1d =  0.00000000000000      0
+            s1 =  7.46016443101439     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.40975762490338     -1     s1d =  0.00000000000000      0
+            s1 =  7.46016443101439     -1     s1d =  0.00000000000000      0
  l =     10
+      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  8.81429144007778      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  8.81429144007778      0
+ l =     11
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.85378002961855      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.85378002961855      0
- l =     11
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
-     s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.57962235179091     -1     s1d =  0.00000000000000      0
+            s1 = -7.61568690261326     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.57962235179091     -1     s1d =  0.00000000000000      0
+            s1 = -7.61568690261326     -1     s1d =  0.00000000000000      0
  l =     12
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.03863256780034      1
+            s1 =  0.00000000000000      0     s1d = -1.03507646896625      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.03863256780034      1
+            s1 =  0.00000000000000      0     s1d = -1.03507646896625      1
  l =     13
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.68469014375270     -1     s1d =  0.00000000000000      0
+            s1 =  7.71152625242791     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.68469014375270     -1     s1d =  0.00000000000000      0
+            s1 =  7.71152625242791     -1     s1d =  0.00000000000000      0
  l =     14
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.19324156589616      1
+            s1 =  0.00000000000000      0     s1d =  1.19003957346963      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.19324156589616      1
+            s1 =  0.00000000000000      0     s1d =  1.19003957346963      1
  l =     15
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.75351021427485     -1     s1d =  0.00000000000000      0
+            s1 = -7.77420713286210     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.75351021427485     -1     s1d =  0.00000000000000      0
+            s1 = -7.77420713286210     -1     s1d =  0.00000000000000      0
  l =     16
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.34884801224777      1
+            s1 =  0.00000000000000      0     s1d = -1.34595277825957      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.34884801224777      1
+            s1 =  0.00000000000000      0     s1d = -1.34595277825957      1
  l =     17
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.80056091946805     -1     s1d =  0.00000000000000      0
+            s1 =  7.81708866884432     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.80056091946805     -1     s1d =  0.00000000000000      0
+            s1 =  7.81708866884432     -1     s1d =  0.00000000000000      0
  l =     18
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.50519898211580      1
+            s1 =  0.00000000000000      0     s1d =  1.50256558971001      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.50519898211580      1
+            s1 =  0.00000000000000      0     s1d =  1.50256558971001      1
  l =     19
       Meixner-Schafke normalization converged in     16 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.82847492900802     -1     s1d =  0.00000000000000      0
+            s1 = -7.84341300511034     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.82847492900802     -1     s1d =  0.00000000000000      0
+            s1 = -7.84341300511034     -1     s1d =  0.00000000000000      0
  l =     20
-      Meixner-Schafke normalization converged in     16 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.66211315951544      1
+            s1 =  0.00000000000000      0     s1d = -1.65970301460666      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.66211315951544      1
+            s1 =  0.00000000000000      0     s1d = -1.65970301460666      1
  l =     21
-      Meixner-Schafke normalization converged in     17 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.75875593582595     -1     s1d =  0.00000000000000      0
+            s1 =  7.78773279456724     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.75875593582595     -1     s1d =  0.00000000000000      0
+            s1 =  7.78773279456724     -1     s1d =  0.00000000000000      0
  l =     22
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.81946025576879      1
+            s1 =  0.00000000000000      0     s1d =  1.81724131982484      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.81946025576879      1
+            s1 =  0.00000000000000      0     s1d =  1.81724131982484      1
  l =     23
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.63762020744458     -1     s1d =  0.00000000000000      0
+            s1 = -6.76580112654030     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.63762020744458     -1     s1d =  0.00000000000000      0
+            s1 = -6.76580112654030     -1     s1d =  0.00000000000000      0
  l =     24
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.97714562429798      1
+            s1 =  0.00000000000000      0     s1d = -1.97509156179257      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.97714562429798      1
+            s1 =  0.00000000000000      0     s1d = -1.97509156179257      1
  l =     25
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.75010489145496     -1     s1d =  0.00000000000000      0
+            s1 =  6.86735490501188     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.75010489145496     -1     s1d =  0.00000000000000      0
+            s1 =  6.86735490501188     -1     s1d =  0.00000000000000      0
  l =     26
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.13509947457189      1
+            s1 =  0.00000000000000      0     s1d =  2.13318862869139      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.13509947457189      1
+            s1 =  0.00000000000000      0     s1d =  2.13318862869139      1
  l =     27
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
+      Meixner-Schafke normalization converged in     19 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.84543335085077     -1     s1d =  0.00000000000000      0
+            s1 = -6.95342072786836     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.84543335085077     -1     s1d =  0.00000000000000      0
- l =     28
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.29326951106253      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.29326951106253      1
- c =    0.75825202144569E+01; m =     2
+            s1 = -6.95342072786836     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     2
  l =      2
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.24439368554012      0     s1d =  0.00000000000000      0
+            s1 =  1.23039848871742      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.24439368554012      0     s1d =  0.00000000000000      0
+            s1 =  1.23039848871742      0     s1d =  0.00000000000000      0
  l =      3
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.74377175008477      0
+            s1 =  0.00000000000000      0     s1d =  4.58785444131248      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.74377175008477      0
+            s1 =  0.00000000000000      0     s1d =  4.58785444131248      0
  l =      4
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.53212028354404     -1     s1d =  0.00000000000000      0
+            s1 = -8.45860368710049     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.53212028354404     -1     s1d =  0.00000000000000      0
+            s1 = -8.45860368710049     -1     s1d =  0.00000000000000      0
  l =      5
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -5.64012894880751      0
+            s1 =  0.00000000000000      0     s1d = -5.50225911725099      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -5.64012894880751      0
+            s1 =  0.00000000000000      0     s1d = -5.50225911725099      0
  l =      6
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.56909147578831     -1     s1d =  0.00000000000000      0
+            s1 =  7.57776732388196     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.56909147578831     -1     s1d =  0.00000000000000      0
+            s1 =  7.57776732388196     -1     s1d =  0.00000000000000      0
  l =      7
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  6.70607667479900      0
+            s1 =  0.00000000000000      0     s1d =  6.62769772824500      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  6.70607667479900      0
+            s1 =  0.00000000000000      0     s1d =  6.62769772824500      0
  l =      8
+      Meixner-Schafke normalization converged in     11 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.53761726136931     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.53761726136931     -1     s1d =  0.00000000000000      0
+ l =      9
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -8.04511422143021      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -8.04511422143021      0
+ l =     10
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.49633358485178     -1     s1d =  0.00000000000000      0
+            s1 =  7.63931247102723     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.49633358485178     -1     s1d =  0.00000000000000      0
- l =      9
-      Meixner-Schafke normalization converged in     11 terms;     26 terms available.
+            s1 =  7.63931247102723     -1     s1d =  0.00000000000000      0
+ l =     11
+      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.09638609296199      0
+            s1 =  0.00000000000000      0     s1d =  9.55428704204652      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.09638609296199      0
- l =     10
+            s1 =  0.00000000000000      0     s1d =  9.55428704204652      0
+ l =     12
       Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.60238363323666     -1     s1d =  0.00000000000000      0
+            s1 = -7.72344934416427     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.60238363323666     -1     s1d =  0.00000000000000      0
- l =     11
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  9.59563884507255      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  9.59563884507255      0
- l =     12
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.69462606151908     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.69462606151908     -1     s1d =  0.00000000000000      0
+            s1 = -7.72344934416427     -1     s1d =  0.00000000000000      0
  l =     13
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.11297661986275      1
+            s1 =  0.00000000000000      0     s1d = -1.10941019377660      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.11297661986275      1
+            s1 =  0.00000000000000      0     s1d = -1.10941019377660      1
  l =     14
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.76017778669392     -1     s1d =  0.00000000000000      0
+            s1 =  7.78264369236360     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.76017778669392     -1     s1d =  0.00000000000000      0
+            s1 =  7.78264369236360     -1     s1d =  0.00000000000000      0
  l =     15
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.26806610454452      1
+            s1 =  0.00000000000000      0     s1d =  1.26491196074762      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.26806610454452      1
+            s1 =  0.00000000000000      0     s1d =  1.26491196074762      1
  l =     16
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.80644184173677     -1     s1d =  0.00000000000000      0
+            s1 = -7.82427836624069     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.80644184173677     -1     s1d =  0.00000000000000      0
+            s1 = -7.82427836624069     -1     s1d =  0.00000000000000      0
  l =     17
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.42417689432371      1
+            s1 =  0.00000000000000      0     s1d = -1.42134708095627      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.42417689432371      1
+            s1 =  0.00000000000000      0     s1d = -1.42134708095627      1
  l =     18
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.83957233471807     -1     s1d =  0.00000000000000      0
+            s1 =  7.85409907674447     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.83957233471807     -1     s1d =  0.00000000000000      0
+            s1 =  7.85409907674447     -1     s1d =  0.00000000000000      0
  l =     19
+      Meixner-Schafke normalization converged in     15 terms;     29 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.57841645928768      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.57841645928768      1
+ l =     20
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.87239255821029     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.87239255821029     -1     s1d =  0.00000000000000      0
+ l =     21
       Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.58098182111169      1
+            s1 =  0.00000000000000      0     s1d = -1.73594228210306      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.58098182111169      1
- l =     20
-      Meixner-Schafke normalization converged in     16 terms;     30 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.85911282371597     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.85911282371597     -1     s1d =  0.00000000000000      0
- l =     21
-      Meixner-Schafke normalization converged in     16 terms;     30 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.73828738921753      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.73828738921753      1
+            s1 =  0.00000000000000      0     s1d = -1.73594228210306      1
  l =     22
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.79137633978745     -1     s1d =  0.00000000000000      0
+            s1 =  7.81763808573190     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.79137633978745     -1     s1d =  0.00000000000000      0
+            s1 =  7.81763808573190     -1     s1d =  0.00000000000000      0
  l =     23
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.89596813643117      1
+            s1 =  0.00000000000000      0     s1d =  1.89380932269451      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.89596813643117      1
+            s1 =  0.00000000000000      0     s1d =  1.89380932269451      1
  l =     24
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.71192632849420     -1     s1d =  0.00000000000000      0
+            s1 = -6.83383165482769     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.71192632849420     -1     s1d =  0.00000000000000      0
+            s1 = -6.83383165482769     -1     s1d =  0.00000000000000      0
  l =     25
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.05393799580624      1
+            s1 =  0.00000000000000      0     s1d = -2.05193872119392      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.05393799580624      1
+            s1 =  0.00000000000000      0     s1d = -2.05193872119392      1
  l =     26
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.81258394693966     -1     s1d =  0.00000000000000      0
+            s1 =  6.92457490630357     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.81258394693966     -1     s1d =  0.00000000000000      0
+            s1 =  6.92457490630357     -1     s1d =  0.00000000000000      0
  l =     27
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.21213558073981      1
+            s1 =  0.00000000000000      0     s1d =  2.21027438123928      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.21213558073981      1
+            s1 =  0.00000000000000      0     s1d =  2.21027438123928      1
  l =     28
       Meixner-Schafke normalization converged in     19 terms;     34 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.89867816654606     -1     s1d =  0.00000000000000      0
+            s1 = -7.00219889153218     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.89867816654606     -1     s1d =  0.00000000000000      0
- l =     29
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.37051580073955      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.37051580073955      1
- c =    0.75825202144569E+01; m =     3
+            s1 = -7.00219889153218     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     3
  l =      3
       Meixner-Schafke normalization converged in      8 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.26131778758421      0     s1d =  0.00000000000000      0
+            s1 =  1.24879726559093      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.26131778758421      0     s1d =  0.00000000000000      0
+            s1 =  1.24879726559093      0     s1d =  0.00000000000000      0
  l =      4
-      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.98864567230994      0
+            s1 =  0.00000000000000      0     s1d =  4.84877297723728      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  4.98864567230994      0
+            s1 =  0.00000000000000      0     s1d =  4.84877297723728      0
  l =      5
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.83915651022943     -1     s1d =  0.00000000000000      0
+            s1 = -8.78725862085038     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.83915651022943     -1     s1d =  0.00000000000000      0
+            s1 = -8.78725862085038     -1     s1d =  0.00000000000000      0
  l =      6
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      9 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -6.15258183544968      0
+            s1 =  0.00000000000000      0     s1d = -6.03391396473910      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -6.15258183544968      0
+            s1 =  0.00000000000000      0     s1d = -6.03391396473910      0
  l =      7
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.94703780400438     -1     s1d =  0.00000000000000      0
+            s1 =  7.95376440822330     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.94703780400438     -1     s1d =  0.00000000000000      0
+            s1 =  7.95376440822330     -1     s1d =  0.00000000000000      0
  l =      8
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  7.38274185551539      0
+            s1 =  0.00000000000000      0     s1d =  7.30598409048622      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  7.38274185551539      0
+            s1 =  0.00000000000000      0     s1d =  7.30598409048622      0
  l =      9
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.76967613503488     -1     s1d =  0.00000000000000      0
+            s1 = -7.79768220699616     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.76967613503488     -1     s1d =  0.00000000000000      0
+            s1 = -7.79768220699616     -1     s1d =  0.00000000000000      0
  l =     10
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.80499319078646      0
+            s1 =  0.00000000000000      0     s1d = -8.75150886343974      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.80499319078646      0
+            s1 =  0.00000000000000      0     s1d = -8.75150886343974      0
  l =     11
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.77431827739214     -1     s1d =  0.00000000000000      0
+            s1 =  7.80197052197019     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.77431827739214     -1     s1d =  0.00000000000000      0
+            s1 =  7.80197052197019     -1     s1d =  0.00000000000000      0
  l =     12
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.03124984719894      1
+            s1 =  0.00000000000000      0     s1d =  1.02701823523480      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.03124984719894      1
+            s1 =  0.00000000000000      0     s1d =  1.02701823523480      1
  l =     13
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.80759910221161     -1     s1d =  0.00000000000000      0
+            s1 = -7.83069202187251     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.80759910221161     -1     s1d =  0.00000000000000      0
+            s1 = -7.83069202187251     -1     s1d =  0.00000000000000      0
  l =     14
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.18540556396523      1
+            s1 =  0.00000000000000      0     s1d = -1.18182876499463      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.18540556396523      1
+            s1 =  0.00000000000000      0     s1d = -1.18182876499463      1
  l =     15
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.83900256282949     -1     s1d =  0.00000000000000      0
+            s1 =  7.85777833864282     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.83900256282949     -1     s1d =  0.00000000000000      0
+            s1 =  7.85777833864282     -1     s1d =  0.00000000000000      0
  l =     16
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.34120899250149      1
+            s1 =  0.00000000000000      0     s1d =  1.33808330202552      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.34120899250149      1
+            s1 =  0.00000000000000      0     s1d =  1.33808330202552      1
  l =     17
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.86422084509365     -1     s1d =  0.00000000000000      0
+            s1 = -7.87955511241894     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.86422084509365     -1     s1d =  0.00000000000000      0
+            s1 = -7.87955511241894     -1     s1d =  0.00000000000000      0
  l =     18
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.49795929078053      1
+            s1 =  0.00000000000000      0     s1d = -1.49517338194859      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.49795929078053      1
+            s1 =  0.00000000000000      0     s1d = -1.49517338194859      1
  l =     19
       Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.88364501860802     -1     s1d =  0.00000000000000      0
+            s1 =  7.89638361943588     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.88364501860802     -1     s1d =  0.00000000000000      0
+            s1 =  7.89638361943588     -1     s1d =  0.00000000000000      0
  l =     20
+      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.65280232798765      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.65280232798765      1
+ l =     21
       Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.65531903827419      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.65531903827419      1
- l =     21
-      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
-     s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.89447704994716     -1     s1d =  0.00000000000000      0
+            s1 = -7.90626012233488     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.89447704994716     -1     s1d =  0.00000000000000      0
+            s1 = -7.90626012233488     -1     s1d =  0.00000000000000      0
  l =     22
       Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.81310112835322      1
+            s1 =  0.00000000000000      0     s1d = -1.81080458233378      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.81310112835322      1
+            s1 =  0.00000000000000      0     s1d = -1.81080458233378      1
  l =     23
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.82770202415445     -1     s1d =  0.00000000000000      0
+            s1 =  7.85147203655134     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.82770202415445     -1     s1d =  0.00000000000000      0
+            s1 =  7.85147203655134     -1     s1d =  0.00000000000000      0
  l =     24
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.97119106425263      1
+            s1 =  0.00000000000000      0     s1d =  1.96907860437595      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.97119106425263      1
+            s1 =  0.00000000000000      0     s1d =  1.96907860437595      1
  l =     25
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.78806266874768     -1     s1d =  0.00000000000000      0
+            s1 = -6.90396954697715     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.78806266874768     -1     s1d =  0.00000000000000      0
+            s1 = -6.90396954697715     -1     s1d =  0.00000000000000      0
  l =     26
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.12951374582185      1
+            s1 =  0.00000000000000      0     s1d = -2.12755778561522      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.12951374582185      1
+            s1 =  0.00000000000000      0     s1d = -2.12755778561522      1
  l =     27
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.87703689769139     -1     s1d =  0.00000000000000      0
+            s1 =  6.98397825631895     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.87703689769139     -1     s1d =  0.00000000000000      0
+            s1 =  6.98397825631895     -1     s1d =  0.00000000000000      0
  l =     28
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.28801735780679      1
+            s1 =  0.00000000000000      0     s1d =  2.28619621298455      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.28801735780679      1
+            s1 =  0.00000000000000      0     s1d =  2.28619621298455      1
  l =     29
       Meixner-Schafke normalization converged in     19 terms;     34 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.95392275189759     -1     s1d =  0.00000000000000      0
+            s1 = -7.05313844086460     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.95392275189759     -1     s1d =  0.00000000000000      0
- l =     30
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.44666475392956      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.44666475392956      1
- c =    0.75825202144569E+01; m =     4
+            s1 = -7.05313844086460     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     4
  l =      4
       Meixner-Schafke normalization converged in      8 terms;     26 terms available.
      s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     13 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     13 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.28185102738961      0     s1d =  0.00000000000000      0
+            s1 =  1.27081539437645      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.28185102738961      0     s1d =  0.00000000000000      0
+            s1 =  1.27081539437645      0     s1d =  0.00000000000000      0
  l =      5
       Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.27841439265478      0
+            s1 =  0.00000000000000      0     s1d =  5.15299354796658      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.27841439265478      0
+            s1 =  0.00000000000000      0     s1d =  5.15299354796658      0
  l =      6
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.12537876822717     -1     s1d =  0.00000000000000      0
+            s1 = -9.08613990609009     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.12537876822717     -1     s1d =  0.00000000000000      0
+            s1 = -9.08613990609009     -1     s1d =  0.00000000000000      0
  l =      7
+      Meixner-Schafke normalization converged in      9 terms;     25 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -6.55409742654136      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -6.55409742654136      0
+ l =      8
+      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.24823305747186     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.24823305747186     -1     s1d =  0.00000000000000      0
+ l =      9
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -6.65953329328465      0
+            s1 =  0.00000000000000      0     s1d =  7.94159205803788      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -6.65953329328465      0
- l =      8
-      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.24411324467727     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.24411324467727     -1     s1d =  0.00000000000000      0
- l =      9
-      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.01518676440452      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.01518676440452      0
+            s1 =  0.00000000000000      0     s1d =  7.94159205803788      0
  l =     10
-      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.99303444086545     -1     s1d =  0.00000000000000      0
+            s1 = -8.01279598369141     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.99303444086545     -1     s1d =  0.00000000000000      0
+            s1 = -8.01279598369141     -1     s1d =  0.00000000000000      0
  l =     11
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -9.48078292372609      0
+            s1 =  0.00000000000000      0     s1d = -9.42713888672445      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -9.48078292372609      0
+            s1 =  0.00000000000000      0     s1d = -9.42713888672445      0
  l =     12
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.92812572629501     -1     s1d =  0.00000000000000      0
+            s1 =  7.94922018373527     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.92812572629501     -1     s1d =  0.00000000000000      0
+            s1 =  7.94922018373527     -1     s1d =  0.00000000000000      0
  l =     13
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.10066655006359      1
+            s1 =  0.00000000000000      0     s1d =  1.09641140406898      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.10066655006359      1
+            s1 =  0.00000000000000      0     s1d =  1.09641140406898      1
  l =     14
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.91574902438441     -1     s1d =  0.00000000000000      0
+            s1 = -7.93437292150766     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.91574902438441     -1     s1d =  0.00000000000000      0
+            s1 = -7.93437292150766     -1     s1d =  0.00000000000000      0
  l =     15
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.25602502070617      1
+            s1 =  0.00000000000000      0     s1d = -1.25245365359498      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.25602502070617      1
+            s1 =  0.00000000000000      0     s1d = -1.25245365359498      1
  l =     16
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.91815910446120     -1     s1d =  0.00000000000000      0
+            s1 =  7.93388349538582     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.91815910446120     -1     s1d =  0.00000000000000      0
+            s1 =  7.93388349538582     -1     s1d =  0.00000000000000      0
  l =     17
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.41277277286327      1
+            s1 =  0.00000000000000      0     s1d =  1.40967175539864      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.41277277286327      1
+            s1 =  0.00000000000000      0     s1d =  1.40967175539864      1
  l =     18
       Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.92434557079963     -1     s1d =  0.00000000000000      0
+            s1 = -7.93753334979558     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.92434557079963     -1     s1d =  0.00000000000000      0
+            s1 = -7.93753334979558     -1     s1d =  0.00000000000000      0
  l =     19
-      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
+      Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.57030334458792      1
+            s1 =  0.00000000000000      0     s1d = -1.56755157265338      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.57030334458792      1
+            s1 =  0.00000000000000      0     s1d = -1.56755157265338      1
  l =     20
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.93078787041759     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.93078787041759     -1     s1d =  0.00000000000000      0
- l =     21
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.72831957092405      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.72831957092405      1
- l =     22
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.93299415909719     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.93299415909719     -1     s1d =  0.00000000000000      0
- l =     23
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.88665995208226      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.88665995208226      1
- l =     24
-      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.86646267747201     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.86646267747201     -1     s1d =  0.00000000000000      0
- l =     25
-      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.04522896003667      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.04522896003667      1
- l =     26
-      Meixner-Schafke normalization converged in     17 terms;     32 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.86475425238659     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.86475425238659     -1     s1d =  0.00000000000000      0
- l =     27
-      Meixner-Schafke normalization converged in     17 terms;     32 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.20396616779047      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.20396616779047      1
- l =     28
-      Meixner-Schafke normalization converged in     18 terms;     33 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     13 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     13 terms.
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.94242609020291     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  6.94242609020291     -1     s1d =  0.00000000000000      0
- l =     29
-      Meixner-Schafke normalization converged in     18 terms;     33 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.36283126692374      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.36283126692374      1
- l =     30
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     14 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     14 terms.
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.01031318636338     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.01031318636338     -1     s1d =  0.00000000000000      0
- l =     31
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.52179620323156      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.52179620323156      1
- c =    0.75825202144569E+01; m =     5
- l =      5
-      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.30453770075328      0     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.30453770075328      0     s1d =  0.00000000000000      0
- l =      6
-      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.59688640764541      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.59688640764541      0
- l =      7
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.38679904335108     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.38679904335108     -1     s1d =  0.00000000000000      0
- l =      8
-      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -7.15999033736302      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -7.15999033736302      0
- l =      9
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.49150782031163     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.49150782031163     -1     s1d =  0.00000000000000      0
- l =     10
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.61985122950949      0
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  8.61985122950949      0
- l =     11
-      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.18411087689321     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.18411087689321     -1     s1d =  0.00000000000000      0
- l =     12
-      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.01317454750429      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.01317454750429      1
- l =     13
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.06750500270507     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.06750500270507     -1     s1d =  0.00000000000000      0
- l =     14
-      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.16811940392240      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.16811940392240      1
- l =     15
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.01863480120785     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.01863480120785     -1     s1d =  0.00000000000000      0
- l =     16
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.32499967836097      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.32499967836097      1
- l =     17
-      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.99629672831375     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.99629672831375     -1     s1d =  0.00000000000000      0
- l =     18
-      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.48288231565089      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.48288231565089      1
- l =     19
-      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.98540850467211     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.98540850467211     -1     s1d =  0.00000000000000      0
- l =     20
-      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.64131935421240      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.64131935421240      1
- l =     21
-      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.97974823398568     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  7.97974823398568     -1     s1d =  0.00000000000000      0
- l =     22
       Meixner-Schafke normalization converged in     14 terms;     30 terms available.
      s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  7.94195523588745     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  7.94195523588745     -1     s1d =  0.00000000000000      0
+ l =     21
+      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
+     s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.80008522865278      1
+            s1 =  0.00000000000000      0     s1d =  1.72584060561130      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.80008522865278      1
- l =     23
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
+            s1 =  0.00000000000000      0     s1d =  1.72584060561130      1
+ l =     22
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.97360791331234     -1     s1d =  0.00000000000000      0
+            s1 = -7.94344481587777     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -7.97360791331234     -1     s1d =  0.00000000000000      0
+            s1 = -7.94344481587777     -1     s1d =  0.00000000000000      0
+ l =     23
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.88440161602163      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.88440161602163      1
+ l =     24
+      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 =  7.88796949294897     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 =  7.88796949294897     -1     s1d =  0.00000000000000      0
+ l =     25
+      Meixner-Schafke normalization converged in     16 terms;     31 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  2.04315357925213      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  2.04315357925213      1
+ l =     26
+      Meixner-Schafke normalization converged in     17 terms;     32 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 = -6.97497182512130     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 = -6.97497182512130     -1     s1d =  0.00000000000000      0
+ l =     27
+      Meixner-Schafke normalization converged in     17 terms;     32 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -2.20204540273035      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -2.20204540273035      1
+ l =     28
+      Meixner-Schafke normalization converged in     18 terms;     33 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     13 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     13 terms.
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 =  7.04455177125620     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 =  7.04455177125620     -1     s1d =  0.00000000000000      0
+ l =     29
+      Meixner-Schafke normalization converged in     18 terms;     33 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  2.36104313250983      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  2.36104313250983      1
+ l =     30
+      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     14 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     14 terms.
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 = -7.10540446059150     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    12 digits.
+            s1 = -7.10540446059150     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     5
+ l =      5
+      Meixner-Schafke normalization converged in      7 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  1.29486563443236      0     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  1.29486563443236      0     s1d =  0.00000000000000      0
+ l =      6
+      Meixner-Schafke normalization converged in      7 terms;     25 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  5.48398393189134      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  5.48398393189134      0
+ l =      7
+      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -9.35527602645973     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -9.35527602645973     -1     s1d =  0.00000000000000      0
+ l =      8
+      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -7.06463664580082      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -7.06463664580082      0
+ l =      9
+      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.49335782742144     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.49335782742144     -1     s1d =  0.00000000000000      0
+ l =     10
+      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  8.54980824158177      0
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  8.54980824158177      0
+ l =     11
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -8.19832131996148     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -8.19832131996148     -1     s1d =  0.00000000000000      0
+ l =     12
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.00789208200243      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.00789208200243      1
+ l =     13
+      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.08381880235085     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.08381880235085     -1     s1d =  0.00000000000000      0
+ l =     14
+      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.16388972477907      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.16388972477907      1
+ l =     15
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -8.03375860424905     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -8.03375860424905     -1     s1d =  0.00000000000000      0
+ l =     16
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.32145062337973      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.32145062337973      1
+ l =     17
+      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.00951026297752     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  8.00951026297752     -1     s1d =  0.00000000000000      0
+ l =     18
+      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.47980821937958      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.47980821937958      1
+ l =     19
+      Meixner-Schafke normalization converged in     13 terms;     29 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.99676894218071     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.99676894218071     -1     s1d =  0.00000000000000      0
+ l =     20
+      Meixner-Schafke normalization converged in     13 terms;     29 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.63859795576674      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.63859795576674      1
+ l =     21
+      Meixner-Schafke normalization converged in     14 terms;     30 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  7.98954594048920     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 =  7.98954594048920     -1     s1d =  0.00000000000000      0
+ l =     22
+      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.79763807317857      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.79763807317857      1
+ l =     23
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.98288103297059     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -7.98288103297059     -1     s1d =  0.00000000000000      0
  l =     24
       Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.95905857421290      1
+            s1 =  0.00000000000000      0     s1d = -1.95683201443564      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.95905857421290      1
+            s1 =  0.00000000000000      0     s1d = -1.95683201443564      1
  l =     25
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.90679114057121     -1     s1d =  0.00000000000000      0
+            s1 =  7.92625530045975     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.90679114057121     -1     s1d =  0.00000000000000      0
+            s1 =  7.92625530045975     -1     s1d =  0.00000000000000      0
  l =     26
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.11816982511455      1
+            s1 =  0.00000000000000      0     s1d =  2.11612529984016      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.11816982511455      1
+            s1 =  0.00000000000000      0     s1d =  2.11612529984016      1
  l =     27
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.94114479341592     -1     s1d =  0.00000000000000      0
+            s1 = -7.04599367817893     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -6.94114479341592     -1     s1d =  0.00000000000000      0
+            s1 = -7.04599367817893     -1     s1d =  0.00000000000000      0
  l =     28
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.27737682418775      1
+            s1 =  0.00000000000000      0     s1d = -2.27548551627989      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.27737682418775      1
+            s1 =  0.00000000000000      0     s1d = -2.27548551627989      1
  l =     29
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.00802285102136     -1     s1d =  0.00000000000000      0
+            s1 =  7.10557716385078     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.00802285102136     -1     s1d =  0.00000000000000      0
+            s1 =  7.10557716385078     -1     s1d =  0.00000000000000      0
  l =     30
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.43665277173792      1
+            s1 =  0.00000000000000      0     s1d =  2.43489247564488      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.43665277173792      1
+            s1 =  0.00000000000000      0     s1d =  2.43489247564488      1
  l =     31
       Meixner-Schafke normalization converged in     19 terms;     34 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.06722845948499     -1     s1d =  0.00000000000000      0
+            s1 = -7.15838502108103     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.06722845948499     -1     s1d =  0.00000000000000      0
- l =     32
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.59597991851844      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.59597991851844      1
- c =    0.75825202144569E+01; m =     6
+            s1 = -7.15838502108103     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     6
  l =      6
       Meixner-Schafke normalization converged in      7 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.32835063220089      0     s1d =  0.00000000000000      0
+            s1 =  1.31987639007701      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.32835063220089      0     s1d =  0.00000000000000      0
+            s1 =  1.31987639007701      0     s1d =  0.00000000000000      0
  l =      7
       Meixner-Schafke normalization converged in      7 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.93381152052580      0
+            s1 =  0.00000000000000      0     s1d =  5.83164250733154      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  5.93381152052580      0
+            s1 =  0.00000000000000      0     s1d =  5.83164250733154      0
  l =      8
-      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.62569809381821     -1     s1d =  0.00000000000000      0
+            s1 = -9.59916381585404     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.62569809381821     -1     s1d =  0.00000000000000      0
+            s1 = -9.59916381585404     -1     s1d =  0.00000000000000      0
  l =      9
       Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -7.65417480275263      0
+            s1 =  0.00000000000000      0     s1d = -7.56696205901707      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -7.65417480275263      0
+            s1 =  0.00000000000000      0     s1d = -7.56696205901707      0
  l =     10
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.70569301619494     -1     s1d =  0.00000000000000      0
+            s1 =  8.70575065081581     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.70569301619494     -1     s1d =  0.00000000000000      0
+            s1 =  8.70575065081581     -1     s1d =  0.00000000000000      0
  l =     11
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  9.20477344482947      0
+            s1 =  0.00000000000000      0     s1d =  9.13826860001134      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  9.20477344482947      0
+            s1 =  0.00000000000000      0     s1d =  9.13826860001134      0
  l =     12
-      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.35277976403090     -1     s1d =  0.00000000000000      0
+            s1 = -8.36306418445684     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.35277976403090     -1     s1d =  0.00000000000000      0
+            s1 = -8.36306418445684     -1     s1d =  0.00000000000000      0
  l =     13
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.07630816812172      1
+            s1 =  0.00000000000000      0     s1d = -1.07115527070626      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.07630816812172      1
+            s1 =  0.00000000000000      0     s1d = -1.07115527070626      1
  l =     14
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.19547910222805     -1     s1d =  0.00000000000000      0
+            s1 =  8.20821606212905     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.19547910222805     -1     s1d =  0.00000000000000      0
+            s1 =  8.20821606212905     -1     s1d =  0.00000000000000      0
  l =     15
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.23387909472363      1
+            s1 =  0.00000000000000      0     s1d =  1.22970615514529      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.23387909472363      1
+            s1 =  0.00000000000000      0     s1d =  1.22970615514529      1
  l =     16
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.11654479832897     -1     s1d =  0.00000000000000      0
+            s1 = -8.12890139147991     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.11654479832897     -1     s1d =  0.00000000000000      0
+            s1 = -8.12890139147991     -1     s1d =  0.00000000000000      0
  l =     17
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.39249581852443      1
+            s1 =  0.00000000000000      0     s1d = -1.38898312204806      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.39249581852443      1
+            s1 =  0.00000000000000      0     s1d = -1.38898312204806      1
  l =     18
       Meixner-Schafke normalization converged in     13 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.07282589596255     -1     s1d =  0.00000000000000      0
+            s1 =  8.08396998214769     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.07282589596255     -1     s1d =  0.00000000000000      0
+            s1 =  8.08396998214769     -1     s1d =  0.00000000000000      0
  l =     19
-      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.55166191787178      1
+            s1 =  0.00000000000000      0     s1d =  1.54861889581469      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.55166191787178      1
+            s1 =  0.00000000000000      0     s1d =  1.54861889581469      1
  l =     20
-      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
+      Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.04659882248831     -1     s1d =  0.00000000000000      0
+            s1 = -8.05640643374801     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.04659882248831     -1     s1d =  0.00000000000000      0
+            s1 = -8.05640643374801     -1     s1d =  0.00000000000000      0
  l =     21
       Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.71111200744062      1
+            s1 =  0.00000000000000      0     s1d = -1.70842020614738      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.71111200744062      1
+            s1 =  0.00000000000000      0     s1d = -1.70842020614738      1
  l =     22
       Meixner-Schafke normalization converged in     14 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.02971851951924     -1     s1d =  0.00000000000000      0
+            s1 =  8.03832612904089     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.02971851951924     -1     s1d =  0.00000000000000      0
+            s1 =  8.03832612904089     -1     s1d =  0.00000000000000      0
  l =     23
-      Meixner-Schafke normalization converged in     14 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.87070918595718      1
+            s1 =  0.00000000000000      0     s1d =  1.86829080850877      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.87070918595718      1
+            s1 =  0.00000000000000      0     s1d =  1.86829080850877      1
  l =     24
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.01559433965856     -1     s1d =  0.00000000000000      0
+            s1 = -8.02383054505029     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.01559433965856     -1     s1d =  0.00000000000000      0
+            s1 = -8.02383054505029     -1     s1d =  0.00000000000000      0
  l =     25
       Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.03038183262785      1
+            s1 =  0.00000000000000      0     s1d = -2.02818312153637      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.03038183262785      1
+            s1 =  0.00000000000000      0     s1d = -2.02818312153637      1
  l =     26
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.94808801724753     -1     s1d =  0.00000000000000      0
+            s1 =  7.96571547565107     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.94808801724753     -1     s1d =  0.00000000000000      0
+            s1 =  7.96571547565107     -1     s1d =  0.00000000000000      0
  l =     27
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.19009161682854      1
+            s1 =  0.00000000000000      0     s1d =  2.18807379858895      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.19009161682854      1
+            s1 =  0.00000000000000      0     s1d =  2.18807379858895      1
  l =     28
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.01666445885316     -1     s1d =  0.00000000000000      0
+            s1 = -7.11646393453873     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.01666445885316     -1     s1d =  0.00000000000000      0
+            s1 = -7.11646393453873     -1     s1d =  0.00000000000000      0
  l =     29
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.34981762852289      1
+            s1 =  0.00000000000000      0     s1d = -2.34795173344761      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.34981762852289      1
+            s1 =  0.00000000000000      0     s1d = -2.34795173344761      1
  l =     30
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.07331710941235     -1     s1d =  0.00000000000000      0
+            s1 =  7.16654556197061     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.07331710941235     -1     s1d =  0.00000000000000      0
+            s1 =  7.16654556197061     -1     s1d =  0.00000000000000      0
  l =     31
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.50954834321212      1
+            s1 =  0.00000000000000      0     s1d =  2.50781209174957      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.50954834321212      1
+            s1 =  0.00000000000000      0     s1d =  2.50781209174957      1
  l =     32
       Meixner-Schafke normalization converged in     19 terms;     34 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.12421696728578     -1     s1d =  0.00000000000000      0
+            s1 = -7.21163088679163     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.12421696728578     -1     s1d =  0.00000000000000      0
- l =     33
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.66927742791983      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.66927742791983      1
- c =    0.75825202144569E+01; m =     7
+            s1 = -7.21163088679163     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     7
  l =      7
       Meixner-Schafke normalization converged in      7 terms;     26 terms available.
      s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     11 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     11 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.35260347205265      0     s1d =  0.00000000000000      0
+            s1 =  1.34515931946219      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.35260347205265      0     s1d =  0.00000000000000      0
+            s1 =  1.34515931946219      0     s1d =  0.00000000000000      0
  l =      8
       Meixner-Schafke normalization converged in      7 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  6.28256765843888      0
+            s1 =  0.00000000000000      0     s1d =  6.18960471379459      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  6.28256765843888      0
+            s1 =  0.00000000000000      0     s1d =  6.18960471379459      0
  l =      9
-      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.84551168235366     -1     s1d =  0.00000000000000      0
+            s1 = -9.82241716944720     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -9.84551168235366     -1     s1d =  0.00000000000000      0
+            s1 = -9.82241716944720     -1     s1d =  0.00000000000000      0
  l =     10
       Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.14242894542064      0
+            s1 =  0.00000000000000      0     s1d = -8.06202421636578      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.14242894542064      0
+            s1 =  0.00000000000000      0     s1d = -8.06202421636578      0
  l =     11
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.89626823827954     -1     s1d =  0.00000000000000      0
+            s1 =  8.89496343448675     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.89626823827954     -1     s1d =  0.00000000000000      0
+            s1 =  8.89496343448675     -1     s1d =  0.00000000000000      0
  l =     12
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  9.77447698509538      0
+            s1 =  0.00000000000000      0     s1d =  9.71134808263577      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  9.77447698509538      0
+            s1 =  0.00000000000000      0     s1d =  9.71134808263577      0
  l =     13
-      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.50504069212702     -1     s1d =  0.00000000000000      0
+            s1 = -8.51245688351741     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.50504069212702     -1     s1d =  0.00000000000000      0
+            s1 = -8.51245688351741     -1     s1d =  0.00000000000000      0
  l =     14
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.13783202676547      1
+            s1 =  0.00000000000000      0     s1d = -1.13283104381577      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.13783202676547      1
+            s1 =  0.00000000000000      0     s1d = -1.13283104381577      1
  l =     15
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.31431554601603     -1     s1d =  0.00000000000000      0
+            s1 =  8.32431966828099     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.31431554601603     -1     s1d =  0.00000000000000      0
+            s1 =  8.32431966828099     -1     s1d =  0.00000000000000      0
  l =     16
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.29816718474900      1
+            s1 =  0.00000000000000      0     s1d =  1.29407038685839      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.29816718474900      1
+            s1 =  0.00000000000000      0     s1d =  1.29407038685839      1
  l =     17
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
+      Meixner-Schafke normalization converged in     12 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.20995850830908     -1     s1d =  0.00000000000000      0
+            s1 = -8.22010444913882     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.20995850830908     -1     s1d =  0.00000000000000      0
+            s1 = -8.22010444913882     -1     s1d =  0.00000000000000      0
  l =     18
+      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.45519799645698      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d = -1.45519799645698      1
+ l =     19
       Meixner-Schafke normalization converged in     12 terms;     28 terms available.
      s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.45866367281677      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.45866367281677      1
- l =     19
-      Meixner-Schafke normalization converged in     13 terms;     28 terms available.
-     s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.14751857791792     -1     s1d =  0.00000000000000      0
+            s1 =  8.15694961361963     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.14751857791792     -1     s1d =  0.00000000000000      0
+            s1 =  8.15694961361963     -1     s1d =  0.00000000000000      0
  l =     20
       Meixner-Schafke normalization converged in     12 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.61922648682851      1
+            s1 =  0.00000000000000      0     s1d =  1.61621886513262      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.61922648682851      1
+            s1 =  0.00000000000000      0     s1d =  1.61621886513262      1
  l =     21
       Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.10744257261630     -1     s1d =  0.00000000000000      0
+            s1 = -8.11592918134444     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.10744257261630     -1     s1d =  0.00000000000000      0
+            s1 = -8.11592918134444     -1     s1d =  0.00000000000000      0
  l =     22
       Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.77977725588520      1
+            s1 =  0.00000000000000      0     s1d = -1.77711567305028      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.77977725588520      1
+            s1 =  0.00000000000000      0     s1d = -1.77711567305028      1
  l =     23
       Meixner-Schafke normalization converged in     14 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.08016736047210     -1     s1d =  0.00000000000000      0
+            s1 =  8.08774147953489     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.08016736047210     -1     s1d =  0.00000000000000      0
+            s1 =  8.08774147953489     -1     s1d =  0.00000000000000      0
  l =     24
-      Meixner-Schafke normalization converged in     14 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.94027569054375      1
+            s1 =  0.00000000000000      0     s1d =  1.93788473435296      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.94027569054375      1
+            s1 =  0.00000000000000      0     s1d =  1.93788473435296      1
  l =     25
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.05844810857021     -1     s1d =  0.00000000000000      0
+            s1 = -8.06577245978584     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.05844810857021     -1     s1d =  0.00000000000000      0
+            s1 = -8.06577245978584     -1     s1d =  0.00000000000000      0
  l =     26
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.10070565953264      1
+            s1 =  0.00000000000000      0     s1d = -2.09853246918379      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.10070565953264      1
+            s1 =  0.00000000000000      0     s1d = -2.09853246918379      1
  l =     27
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.98993465037094     -1     s1d =  0.00000000000000      0
+            s1 =  8.00591397649000     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.98993465037094     -1     s1d =  0.00000000000000      0
+            s1 =  8.00591397649000     -1     s1d =  0.00000000000000      0
  l =     28
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.26106370087986      1
+            s1 =  0.00000000000000      0     s1d =  2.25906985328697      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.26106370087986      1
+            s1 =  0.00000000000000      0     s1d =  2.25906985328697      1
  l =     29
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.09094097293311     -1     s1d =  0.00000000000000      0
+            s1 = -7.18600117977130     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.09094097293311     -1     s1d =  0.00000000000000      0
+            s1 = -7.18600117977130     -1     s1d =  0.00000000000000      0
  l =     30
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.42135240918222      1
+            s1 =  0.00000000000000      0     s1d = -2.41950908893463      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.42135240918222      1
+            s1 =  0.00000000000000      0     s1d = -2.41950908893463      1
  l =     31
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.13795471212160     -1     s1d =  0.00000000000000      0
+            s1 =  7.22709812576892     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.13795471212160     -1     s1d =  0.00000000000000      0
+            s1 =  7.22709812576892     -1     s1d =  0.00000000000000      0
  l =     32
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.58157696702400      1
+            s1 =  0.00000000000000      0     s1d =  2.57986198296510      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.58157696702400      1
+            s1 =  0.00000000000000      0     s1d =  2.57986198296510      1
  l =     33
       Meixner-Schafke normalization converged in     19 terms;     34 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.18095129686135     -1     s1d =  0.00000000000000      0
+            s1 = -7.26481253450768     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.18095129686135     -1     s1d =  0.00000000000000      0
- l =     34
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.74174339984613      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.74174339984613      1
- c =    0.75825202144569E+01; m =     8
+            s1 = -7.26481253450768     -1     s1d =  0.00000000000000      0
+ c =    0.72270895794043E+01; m =     8
  l =      8
       Meixner-Schafke normalization converged in      7 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     11 terms.
         s1 calculation for eta =  0.00000000000000 converged in     11 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.37685259762819      0     s1d =  0.00000000000000      0
+            s1 =  1.37028619976622      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  1.37685259762819      0     s1d =  0.00000000000000      0
+            s1 =  1.37028619976622      0     s1d =  0.00000000000000      0
  l =      9
       Meixner-Schafke normalization converged in      7 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  6.63877056390600      0
+            s1 =  0.00000000000000      0     s1d =  6.55373801466349      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  6.63877056390600      0
+            s1 =  0.00000000000000      0     s1d =  6.55373801466349      0
  l =     10
-      Meixner-Schafke normalization converged in      8 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -1.00494066852691      0     s1d =  0.00000000000000      0
+            s1 = -1.00288347700419      0     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -1.00494066852691      0     s1d =  0.00000000000000      0
+            s1 = -1.00288347700419      0     s1d =  0.00000000000000      0
  l =     11
       Meixner-Schafke normalization converged in      8 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.62505146701998      0
+            s1 =  0.00000000000000      0     s1d = -8.55047096382572      0
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -8.62505146701998      0
+            s1 =  0.00000000000000      0     s1d = -8.55047096382572      0
  l =     12
       Meixner-Schafke normalization converged in      9 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  9.06923970828286     -1     s1d =  0.00000000000000      0
+            s1 =  9.06692104959162     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  9.06923970828286     -1     s1d =  0.00000000000000      0
+            s1 =  9.06692104959162     -1     s1d =  0.00000000000000      0
  l =     13
-      Meixner-Schafke normalization converged in      9 terms;     26 terms available.
+      Meixner-Schafke normalization converged in      9 terms;     25 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.03317759093256      1
+            s1 =  0.00000000000000      0     s1d =  1.02718099012634      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.03317759093256      1
+            s1 =  0.00000000000000      0     s1d =  1.02718099012634      1
  l =     14
-      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
+      Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.64477414679035     -1     s1d =  0.00000000000000      0
+            s1 = -8.65004680100034     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.64477414679035     -1     s1d =  0.00000000000000      0
+            s1 = -8.65004680100034     -1     s1d =  0.00000000000000      0
  l =     15
       Meixner-Schafke normalization converged in     10 terms;     26 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.19799627888472      1
+            s1 =  0.00000000000000      0     s1d = -1.19315617404025      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.19799627888472      1
+            s1 =  0.00000000000000      0     s1d = -1.19315617404025      1
  l =     16
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.42569559216439     -1     s1d =  0.00000000000000      0
+            s1 =  8.43357612497217     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.42569559216439     -1     s1d =  0.00000000000000      0
+            s1 =  8.43357612497217     -1     s1d =  0.00000000000000      0
  l =     17
+      Meixner-Schafke normalization converged in     10 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.35715307513408      1
+ eta =  0.00000000000000  accuracy =    15 digits.
+            s1 =  0.00000000000000      0     s1d =  1.35715307513408      1
+ l =     18
+      Meixner-Schafke normalization converged in     11 terms;     27 terms available.
+     s1 is normalized to have unit norm.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -8.30772731042189     -1     s1d =  0.00000000000000      0
+ eta =  0.00000000000000  accuracy =    13 digits.
+            s1 = -8.30772731042189     -1     s1d =  0.00000000000000      0
+ l =     19
       Meixner-Schafke normalization converged in     11 terms;     27 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.36116211202654      1
+            s1 =  0.00000000000000      0     s1d = -1.52022281087659      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.36116211202654      1
- l =     18
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
-     s1 is normalized to have unit norm.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
-        s1 calculation for eta =  0.00000000000000 converged in     12 terms.
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.29936510094368     -1     s1d =  0.00000000000000      0
- eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.29936510094368     -1     s1d =  0.00000000000000      0
- l =     19
-      Meixner-Schafke normalization converged in     12 terms;     28 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.52363378497598      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.52363378497598      1
+            s1 =  0.00000000000000      0     s1d = -1.52022281087659      1
  l =     20
       Meixner-Schafke normalization converged in     12 terms;     28 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.22032133827641     -1     s1d =  0.00000000000000      0
+            s1 =  8.22832672323744     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.22032133827641     -1     s1d =  0.00000000000000      0
+            s1 =  8.22832672323744     -1     s1d =  0.00000000000000      0
  l =     21
       Meixner-Schafke normalization converged in     12 terms;     28 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.68567891308087      1
+            s1 =  0.00000000000000      0     s1d =  1.68271051455451      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  1.68567891308087      1
+            s1 =  0.00000000000000      0     s1d =  1.68271051455451      1
  l =     22
       Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.16766182006918     -1     s1d =  0.00000000000000      0
+            s1 = -8.17502174896385     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.16766182006918     -1     s1d =  0.00000000000000      0
+            s1 = -8.17502174896385     -1     s1d =  0.00000000000000      0
  l =     23
       Meixner-Schafke normalization converged in     13 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.84740151647519      1
+            s1 =  0.00000000000000      0     s1d = -1.84477133584984      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -1.84740151647519      1
+            s1 =  0.00000000000000      0     s1d = -1.84477133584984      1
  l =     24
       Meixner-Schafke normalization converged in     14 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.13073942418651     -1     s1d =  0.00000000000000      0
+            s1 =  8.13741519912144     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 =  8.13073942418651     -1     s1d =  0.00000000000000      0
+            s1 =  8.13741519912144     -1     s1d =  0.00000000000000      0
  l =     25
-      Meixner-Schafke normalization converged in     14 terms;     30 terms available.
+      Meixner-Schafke normalization converged in     14 terms;     29 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.00886043064340      1
+            s1 =  0.00000000000000      0     s1d =  2.00649648082495      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.00886043064340      1
+            s1 =  0.00000000000000      0     s1d =  2.00649648082495      1
  l =     26
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.10181095687880     -1     s1d =  0.00000000000000      0
+            s1 = -8.10833338810539     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    13 digits.
-            s1 = -8.10181095687880     -1     s1d =  0.00000000000000      0
+            s1 = -8.10833338810539     -1     s1d =  0.00000000000000      0
  l =     27
-      Meixner-Schafke normalization converged in     15 terms;     31 terms available.
+      Meixner-Schafke normalization converged in     15 terms;     30 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.17009803118768      1
+            s1 =  0.00000000000000      0     s1d = -2.16794904800863      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.17009803118768      1
+            s1 =  0.00000000000000      0     s1d = -2.16794904800863      1
  l =     28
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  8.03203617603708     -1     s1d =  0.00000000000000      0
+            s1 =  8.04653790730199     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  8.03203617603708     -1     s1d =  0.00000000000000      0
+            s1 =  8.04653790730199     -1     s1d =  0.00000000000000      0
  l =     29
       Meixner-Schafke normalization converged in     16 terms;     31 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.33114803080984      1
+            s1 =  0.00000000000000      0     s1d =  2.32917637709625      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.33114803080984      1
+            s1 =  0.00000000000000      0     s1d =  2.32917637709625      1
  l =     30
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
         s1 calculation for eta =  0.00000000000000 converged in     12 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.16373909007744     -1     s1d =  0.00000000000000      0
+            s1 = -7.25435649288468     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.16373909007744     -1     s1d =  0.00000000000000      0
+            s1 = -7.25435649288468     -1     s1d =  0.00000000000000      0
  l =     31
       Meixner-Schafke normalization converged in     17 terms;     32 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.49203812973961      1
+            s1 =  0.00000000000000      0     s1d = -2.49021540587245      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.49203812973961      1
+            s1 =  0.00000000000000      0     s1d = -2.49021540587245      1
  l =     32
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
         s1 calculation for eta =  0.00000000000000 converged in     13 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.20169342976137     -1     s1d =  0.00000000000000      0
+            s1 =  7.28698428494219     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 =  7.20169342976137     -1     s1d =  0.00000000000000      0
+            s1 =  7.28698428494219     -1     s1d =  0.00000000000000      0
  l =     33
       Meixner-Schafke normalization converged in     18 terms;     33 terms available.
      s1 is normalized to have unit norm.
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.65279131153320      1
+            s1 =  0.00000000000000      0     s1d =  2.65109556800042      1
  eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d =  2.65279131153320      1
+            s1 =  0.00000000000000      0     s1d =  2.65109556800042      1
  l =     34
       Meixner-Schafke normalization converged in     19 terms;     34 terms available.
      s1 is normalized to have unit norm.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
         s1 calculation for eta =  0.00000000000000 converged in     14 terms.
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.23719567996391     -1     s1d =  0.00000000000000      0
+            s1 = -7.31768916305315     -1     s1d =  0.00000000000000      0
  eta =  0.00000000000000  accuracy =    12 digits.
-            s1 = -7.23719567996391     -1     s1d =  0.00000000000000      0
- l =     35
-      Meixner-Schafke normalization converged in     19 terms;     34 terms available.
-     s1 is normalized to have unit norm.
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.81342671771130      1
- eta =  0.00000000000000  accuracy =    15 digits.
-            s1 =  0.00000000000000      0     s1d = -2.81342671771130      1
+            s1 = -7.31768916305315     -1     s1d =  0.00000000000000      0
