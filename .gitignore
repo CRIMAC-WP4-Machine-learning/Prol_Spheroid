@@ -1,5 +1,5 @@
 /temp/*
 !/temp/.gitignore
 
-.venv/*
-!.venv/.keep
+# Ignore the virtual environment directory
+.venv/
