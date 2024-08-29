@@ -1,14 +1,11 @@
 import numpy as np
-from scipy import linalg
 import pandas as pd
 #import math
 import matplotlib.pyplot as plt
 import subprocess
 #import matplotlib.cm as cm
-import time
 import os
 import csv
-import time
 #SaveFigDir='/home/bkh/OnlineCourses/ProlateSpheroid/Figs/'
 from settings import LiquidFilledSettings, AirFilledSettings
 from IterativeSolvers import IterativeRefinement, PreconditionedIterativeRefinement, ILUPreconditioner, BiCGSTABSolver, GMResSolver
@@ -52,14 +49,7 @@ freq_resp_file = ParentDIR+'/temp/'+'ts_vs_freq_{}_a_{}_b_{}_f1_{}_f2_{}_rhos_{:
                                                                                       solver.solver_name())
 frf = open(freq_resp_file, 'wt', newline='', encoding='utf-8')
 freq_resp_writer = csv.writer(frf, delimiter=',')
-freq_resp_writer.writerow(['Freq_kHz', 'TS', 'M', 'N2'])
-
-condition_number_file = ParentDIR+'/temp/'+'{}_condition_numbers_f1_{}_f2_{}_{}.csv'.format(settings.prefix,
-                                                                         int(min_freq / 1000), int(freq_vec[-1] / 1000),
-                                                                         solver.solver_name())
-cnf = open(condition_number_file, 'wt', newline='', encoding='utf-8')
-cnf_writer = csv.writer(cnf, delimiter=',')
-cnf_writer.writerow(['f_kHz', 'h', 'm', 'N_order', 'cond', 'cond_precond'])
+freq_resp_writer.writerow(['Freq_kHz', 'TS'])
 
 # ro_w=1027 #ro_water #1000    # Surronding Water density  "kg/m³"
 # ro_s=10 #ro_w*1.05 #ro_scatterer #1*1.24 #14860   # inner sphere Density "kg/m³"
@@ -474,9 +464,9 @@ def Calculate_fbm(content_Rad_SWF_hs,
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 #%%
-import sys
+#import sys
 #sys.path.insert(0, '..')
-sys.path.insert(0, ParentDIR)
+#sys.path.insert(0, ParentDIR)
 
 from funcs.FUNC_ReadFortranOutput import func_Rad_SWF, func_Ang_SWF, func_dr_values,\
      func_Smn_eta_c_from_dr, func_Smn_eta_c_from_dr_log, func_Rad_SWF_ArgExp, func_dr_values_ArgExp,\
@@ -588,7 +578,9 @@ for ii in range(0,np.size(freq_vec,0)): # Frequency Loop
            
         last_f_bs = f_bm
         
-    f_b=np.append(f_b,f_b_sum)        
+    f_b=np.append(f_b,f_b_sum)
+    freq_resp_writer.writerow(['{:.2f}'.format(f/1000), np.float64(20*np.log10(np.abs(f_b_sum)))])
+    frf.flush()
     print('freq:',f,' of',max_freq,' TS: ',20*np.log10(np.abs(f_b_sum)))
     
 #print(f_mn_contribution_VEC) 
