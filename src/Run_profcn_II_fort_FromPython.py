@@ -1,4 +1,5 @@
 import subprocess
+import platform
 
 print('IAM HERE=======================================')
 
@@ -23,13 +24,16 @@ subprocess.run(compile_command, shell=True)
 #    print(f"Compilation failed: {compile_result.stderr.decode()}")
 
 # Run the compiled Fortran executable !!! Linux
-run_command = './profcn_II'
-subprocess.run(run_command, shell=True)
+system = platform.system()
+if system == 'Linux':
+    run_command = './profcn_II'
+    subprocess.run(run_command, shell=True)
 
 #%% Windows
 #compile_command = ["gfortran", "profcn_II.f90", "-o", "profcn_II.exe"]
 #compile_result = subprocess.run(compile_command, check=True, capture_output=True)
 
 ## Run the compiled Fortran executable !!! Windows 
-#run_command = './profcn_II.exe'
-#subprocess.run(run_command, check=True)
+elif system == 'Windows':
+    run_command = './profcn_II.exe'
+    subprocess.run(run_command, check=True)
