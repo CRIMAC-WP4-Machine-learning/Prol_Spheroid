@@ -494,9 +494,9 @@ for ii in range(0,np.size(freq_vec,0)): # Frequency Loop
        
     m = -1
     if c_s < 500:
-       M_order = 0.5 * (c_s/c_w) * (np.sin(Theta_i_deg*np.pi/180)**3) *  hs  + 5
+       M_order = 0.5 * (c_s/c_w) * (np.sin(Theta_i_deg*np.pi/180)**3) *  hs  + 8
     else: 
-       M_order = 0.3 * (c_s/c_w) * (np.sin(Theta_i_deg*np.pi/180)**3) *  hs  + 4
+       M_order = 0.3 * (c_s/c_w) * (np.sin(Theta_i_deg*np.pi/180)**3) *  hs  + 6
 
     
     M_order = int(np.ceil(M_order))

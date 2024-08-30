@@ -3,3 +3,9 @@
 
 # Ignore the virtual environment directory
 .venv/
+
+src/fort.20
+src/fort.30
+src/fort.40
+src/fort.50
+src/fort.70
