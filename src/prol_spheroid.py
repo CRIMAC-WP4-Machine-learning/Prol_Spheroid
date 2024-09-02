@@ -583,7 +583,7 @@ for ii in range(0,np.size(freq_vec,0)): # Frequency Loop
     print('freq:',f,' of',max_freq,' TS: ',20*np.log10(np.abs(f_b_sum)))
 
     # File path and name
-    ts_file_path = 'ts_vs_freq_loop_a_{}_b_{}_f1_{}_f2_{}_rhos_{}_IncAngle_{}.csv'.format(a, b, int(freq_vec[0] / 1000),
+    ts_file_path = ParentDIR+'/temp/'+'ts_vs_freq_loop_a_{}_b_{}_f1_{}_f2_{}_rhos_{}_IncAngle_{}.csv'.format(a, b, int(freq_vec[0] / 1000),
                         int(freq_vec[-1] / 1000), ro_s, Theta_i_deg)
     TS=20*np.log10(np.abs(f_b_sum))
     ts_data_loop = pd.DataFrame({'Freq_kHz': freq_vec[ii]/1000, 'TS':TS[0]})
