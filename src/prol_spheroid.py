@@ -13,7 +13,6 @@ from IterativeSolvers import IterativeRefinement, PreconditionedIterativeRefinem
 CurrentDir = os.getcwd()
 ParentDIR=os.path.split(os.getcwd())[0]
 
-
 # http://mathworld.wolfram.com/SphericalHankelFunctionoftheFirstKind.html
 # Spherical Hankel Function of the First Kind
 # The spherical Hankel function of the first kind h1_n(z) is defined by:
@@ -582,6 +581,16 @@ for ii in range(0,np.size(freq_vec,0)): # Frequency Loop
     freq_resp_writer.writerow(['{:.2f}'.format(f/1000), np.float64(20*np.log10(np.abs(f_b_sum)))])
     frf.flush()
     print('freq:',f,' of',max_freq,' TS: ',20*np.log10(np.abs(f_b_sum)))
+
+    # File path and name
+    ts_file_path = 'ts_vs_freq_loop_a_{}_b_{}_f1_{}_f2_{}_rhos_{}_IncAngle_{}.csv'.format(a, b, int(freq_vec[0] / 1000),
+                        int(freq_vec[-1] / 1000), ro_s, Theta_i_deg)
+    TS=20*np.log10(np.abs(f_b_sum))
+    ts_data_loop = pd.DataFrame({'Freq_kHz': freq_vec[ii]/1000, 'TS':TS[0]})
+    if ii == 0:
+        ts_data_loop.to_csv(ts_file_path, index=False)  
+    else:
+        ts_data_loop.to_csv(ts_file_path,  mode='a', header=False, index=False)
     
 #print(f_mn_contribution_VEC) 
     
@@ -603,18 +612,18 @@ TS=20*np.log10(np.abs(f_b))
 #COMSOL3 = pd.read_csv(ParentDIR+'/ValidationCOMSOL/'+'TS200kHz_Prol_B2cm_AspR4_Cont1p05_Theta90_400_420kHz.csv')
 #COMSOL4 = pd.read_csv(ParentDIR+'/ValidationCOMSOL/'+'TS200kHz_Prol_B2cm_AspR4_Cont1p05_Theta90_580_620kHz.csv')
 
-FIG=plt.figure(figsize=(14,7)) 
+#FIG=plt.figure(figsize=(14,7)) 
 #plt.plot(COMSOL1.to_numpy()[:,0]/1000,COMSOL1.to_numpy()[:,1],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution')  
 #plt.plot(COMSOL2[COMSOL2.columns[0]]/1000,COMSOL2[COMSOL2.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution') 
 #plt.plot(COMSOL3[COMSOL3.columns[0]]/1000,COMSOL3[COMSOL3.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution') 
 #plt.plot(COMSOL4[COMSOL4.columns[0]]/1000,COMSOL4[COMSOL4.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution') 
-plt.plot(freq_vec[0:len(TS)]/1000, TS, marker='o',markersize=4, color=[1,0,0])
+#plt.plot(freq_vec[0:len(TS)]/1000, TS, marker='o',markersize=4, color=[1,0,0])
 
 ts_data = pd.DataFrame({'Freq_kHz': freq_vec[0:len(TS)]/1000, 'TS':TS})
 ts_file = 'ts_f_a_{}_b_{}_f1_{}_f2_{}_M_{}_N_{}_rhos_{:.2f}_IncAngle_{}.csv'.format(a, b, int(min_freq / 1000),
                         int(freq_vec[ii-1] / 1000), M_order, N_order, ro_s, Theta_i_deg)
 ts_data.to_csv(ParentDIR+'/temp/'+ts_file, index=False)
 #
-
+print(ts_data)
 
 #print('total compute time = {}s'.format(time.time() - t0))
