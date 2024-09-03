@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import subprocess
 import os
 import csv
-from settings import AirFilledSettings
-from IterativeSolvers import IterativeRefinement
 
 from funcs.FUNC_ReadFortranOutput import func_Rad_SWF_ArgExp, func_dr_values_ArgExp, \
     func_Smn_eta_c_from_dr_ArgExp, Multi_ArgExp, Sum_ArgExp, Get_ArgExp, func_Integrate_SmnEta1_SmlEta2_ArgExp
@@ -146,9 +144,9 @@ class ProlateSpheroid:
 
             m = -1
             if self.c_s < 500:
-                M_order = 0.5 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 5
+                M_order = 0.5 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 8
             else:
-                M_order = 0.3 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 4
+                M_order = 0.3 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 6
 
             M_order = int(np.ceil(M_order))
 
@@ -500,8 +498,3 @@ def Calculate_fbm(content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw, 
                                                   Smn_hw_CosThetai_x_CosThetas_vec_Exp, solver, kw)
     
     return [_f_bm]
-
-
-if __name__ == '__main__':
-    spheroid = ProlateSpheroid(AirFilledSettings(), IterativeRefinement('LU'))
-    spheroid.run()
