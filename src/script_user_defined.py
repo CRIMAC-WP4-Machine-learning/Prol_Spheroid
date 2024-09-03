@@ -1,4 +1,4 @@
-from prol_spheroid_II import ProlateSpheroid
+from prol_spheroid import ProlateSpheroid
 from IterativeSolvers import BiCGSTABSolver, ILUPreconditioner
 import os
 
@@ -28,7 +28,7 @@ class UserDefinedSettings:
 
 if __name__ == '__main__':
     # if the path to the gfortran compiler is not already in the PATH environment variable, it can be added here
-    os.environ['PATH'] += os.pathsep + os.path.abspath(r'C:\bin\mingw64\bin')
+    #os.environ['PATH'] += os.pathsep + os.path.abspath(r'C:\bin\mingw64\bin')
 
     spheroid = ProlateSpheroid(UserDefinedSettings(), BiCGSTABSolver(ILUPreconditioner()))
     spheroid.run()
