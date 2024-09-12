@@ -1,3 +1,6 @@
+**/__pycache__/
+*.py[cod]
+
 /temp/*
 !/temp/.gitignore
 
@@ -8,4 +11,10 @@ src/fort.20
 src/fort.30
 src/fort.40
 src/fort.50
+src/fort.60
 src/fort.70
+src/param.mod
+src/param.o
+src/profcn_II
+src/profcn_II.exe
+src/profcn_II.o
