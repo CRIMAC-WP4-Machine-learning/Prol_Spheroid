@@ -230,7 +230,7 @@ class ProlateSpheroid:
         plt.show()
         #
 
-    def compute_far_field(self, freq_Hz, num_angles_per_half_plane):
+    def compute_far_field_pattern(self, freq_Hz, num_angles_per_half_plane):
         ParentDIR=os.path.split(os.getcwd())[0]
         script_path1 = ParentDIR+'/src/'+'Run_param_fort_FromPython.py'
         print(script_path1)
