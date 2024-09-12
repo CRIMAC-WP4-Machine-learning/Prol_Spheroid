@@ -28,7 +28,16 @@ class UserDefinedSettings:
 
 if __name__ == '__main__':
     # if the path to the gfortran compiler is not already in the PATH environment variable, it can be added here
-    #os.environ['PATH'] += os.pathsep + os.path.abspath(r'C:\bin\mingw64\bin')
+    os.environ['PATH'] += os.pathsep + os.path.abspath(r'C:\bin\mingw64\bin')
 
-    spheroid = ProlateSpheroid(UserDefinedSettings(), BiCGSTABSolver(ILUPreconditioner()))
-    spheroid.run()
+    user_defined_settings = UserDefinedSettings()
+    solver = BiCGSTABSolver(ILUPreconditioner())
+    ts_file_name = 'ts_vs_freq_loop_{}_a_{}_b_{}_f1_{}_f2_{}_rhos_{:.2f}_IncAngle_{}_{}.csv'.format(user_defined_settings.prefix,
+                                                                                                    user_defined_settings.a, user_defined_settings.b,
+                                                                                                    int(user_defined_settings.min_freq / 1000),
+                                                                                                    int(user_defined_settings.max_freq / 1000),
+                                                                                                    user_defined_settings.ro_s, user_defined_settings.theta_i_deg,
+                                                                                                    solver.solver_name())
+
+    spheroid = ProlateSpheroid(user_defined_settings, solver)
+    spheroid.run(ts_file_name)

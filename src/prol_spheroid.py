@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 import subprocess
 import os
@@ -19,6 +18,7 @@ class ProlateSpheroid:
 
     def __init__(self, settings, solver):
 
+        self.prefix = settings.prefix
         self.ro_w = settings.ro_w
         self.ro_s = settings.ro_s
         self.c_w = settings.c_w
@@ -35,19 +35,14 @@ class ProlateSpheroid:
         self.freq_vec=np.arange(self.min_freq,self.max_freq,delta_f)
 
         self.solver = solver
-        #solver = PreconditionedIterativeRefinement(ILUPreconditioner(), IterativeRefinement('LU'))
-        #solver = GMResSolver(ILUPreconditioner())
-        #solver = BiCGSTABSolver(ILUPreconditioner())
 
-        self.ParentDIR=os.path.split(os.getcwd())[0]
-        freq_resp_file = self.ParentDIR+'/temp/'+'ts_vs_freq_loop_{}_a_{}_b_{}_f1_{}_f2_{}_rhos_{:.2f}_IncAngle_{}_{}.csv'.format(settings.prefix, self.a, self.b, int(self.min_freq / 1000),
-                                                                                                                             int(self.freq_vec[-1] / 1000), self.ro_s, self.Theta_i_deg,
-                                                                                                                             self.solver.solver_name())
-        self.frf = open(freq_resp_file, 'wt', newline='', encoding='utf-8')
-        self.freq_resp_writer = csv.writer(self.frf, delimiter=',')
-        self.freq_resp_writer.writerow(['Freq_kHz', 'TS'])
+    def run(self, ts_file_name):
+        ParentDIR=os.path.split(os.getcwd())[0]
+        freq_resp_file = os.path.join(ParentDIR, 'temp', ts_file_name)
+        frf = open(freq_resp_file, 'wt', newline='', encoding='utf-8')
+        freq_resp_writer = csv.writer(frf, delimiter=',')
+        freq_resp_writer.writerow(['Freq_kHz', 'TS'])
 
-    def run(self):
         #%% Write profcn.dat file
         '''
         # Structure of parameters in "profcn.dat"
@@ -121,7 +116,8 @@ class ProlateSpheroid:
         # ioparg, eta1, eta2
         '''
         # Run Param Fortran script
-        script_path1 = self.ParentDIR+'/src/'+'Run_param_fort_FromPython.py'
+
+        script_path1 = os.path.join(ParentDIR, 'src', 'Run_param_fort_FromPython.py')
         print(script_path1)
         # Run Python Script:
         subprocess.run(['python', script_path1], capture_output=True, text=True)
@@ -157,32 +153,32 @@ class ProlateSpheroid:
             # hs:-------------------------------------------------------------------
             c_nondimensional=hs
             Theta_IncDeg=self.Theta_i_deg
-            write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, self.ParentDIR)
+            write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, ParentDIR)
 
             #    import os
             #    parent_dir = os.path.split(os.getcwd())[0]
-            script_path = self.ParentDIR+'/src/'+'Run_profcn_II_fort_FromPython.py'
+            script_path = os.path.join(ParentDIR, 'src', 'Run_profcn_II_fort_FromPython.py')
             print(script_path)
             # Run Fortran:
             subprocess.run(['python', script_path], capture_output=True, text=True)
             #>>>>>>>>>
 
-            content_Rad_SWF_hs=infunc_content_Rad_SWF(self.ParentDIR)
+            content_Rad_SWF_hs=infunc_content_Rad_SWF(ParentDIR)
             #    content_Ang_SWF_hs=infunc_content_Ang_SWF()
-            content_dr_values_hs=infunc_content_dr_values(self.ParentDIR)
+            content_dr_values_hs=infunc_content_dr_values(ParentDIR)
             # -------------------------------------------------------------------------
 
             # hw:-------------------------------------------------------------------
             c_nondimensional=hw
             Theta_IncDeg=self.Theta_i_deg
-            write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, self.ParentDIR)
+            write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, ParentDIR)
 
             # Run Fortran:
             subprocess.run(['python', script_path], capture_output=True, text=True)
             #>>>>>>>>>
-            content_Rad_SWF_hw=infunc_content_Rad_SWF(self.ParentDIR)
+            content_Rad_SWF_hw=infunc_content_Rad_SWF(ParentDIR)
             #    content_Ang_SWF_hw=infunc_content_Ang_SWF()
-            content_dr_values_hw=infunc_content_dr_values(self.ParentDIR)
+            content_dr_values_hw=infunc_content_dr_values(ParentDIR)
             # -------------------------------------------------------------------------
 
             f_b_sum = 0
@@ -218,8 +214,8 @@ class ProlateSpheroid:
                 last_f_bs = f_bm
 
             f_b=np.append(f_b,f_b_sum)
-            self.freq_resp_writer.writerow(['{:.2f}'.format(f/1000), np.float64(20*np.log10(np.abs(f_b_sum)))])
-            self.frf.flush()
+            freq_resp_writer.writerow(['{:.2f}'.format(f/1000), np.float64(20*np.log10(np.abs(f_b_sum)))])
+            frf.flush()
             print('freq:',f,' of',self.max_freq,' TS: ',20*np.log10(np.abs(f_b_sum)))
 
 
@@ -231,13 +227,97 @@ class ProlateSpheroid:
         #plt.plot(COMSOL3[COMSOL3.columns[0]]/1000,COMSOL3[COMSOL3.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution')
         #plt.plot(COMSOL4[COMSOL4.columns[0]]/1000,COMSOL4[COMSOL4.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution')
         plt.plot(self.freq_vec[0:len(TS)]/1000, TS, marker='o',markersize=4, color=[1,0,0])
-
-        ts_data = pd.DataFrame({'Freq_kHz': self.freq_vec[0:len(TS)]/1000, 'TS':TS})
-        ts_file = 'ts_f_a_{}_b_{}_f1_{}_f2_{}_rhos_{:.2f}_IncAngle_{}.csv'.format(self.a, self.b, int(self.min_freq / 1000),
-                                                                                  int(self.max_freq / 1000),
-                                                                                  self.ro_s, self.Theta_i_deg)
-        ts_data.to_csv(self.ParentDIR+'/temp/'+ts_file, index=False)
+        plt.show()
         #
+
+    def compute_far_field(self, freq_Hz, num_angles_per_half_plane):
+        ParentDIR=os.path.split(os.getcwd())[0]
+        script_path1 = ParentDIR+'/src/'+'Run_param_fort_FromPython.py'
+        print(script_path1)
+        # Run Python Script:
+        subprocess.run(['python', script_path1], capture_output=True, text=True)
+
+        f = freq_Hz
+
+        w=2*np.pi*f
+        kw=w/self.c_w
+        ks=w/self.c_s
+        hw=self.d*kw/2
+        hs=self.d*ks/2
+
+        N_at_m0_for_hs = 0.75 * hs + np.ceil(10-7*np.sin(self.Theta_i_deg*np.pi/180))
+
+        if self.c_s < 500:
+            M_order = 0.5 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 8
+        else:
+            M_order = 0.3 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 6
+
+        M_order = int(np.ceil(M_order))
+
+
+        M_order_Fortran = M_order
+        N_order_Fortran = int(np.ceil(N_at_m0_for_hs))
+
+        # Write the Fortran's input file
+        # hs:-------------------------------------------------------------------
+        c_nondimensional=hs
+        Theta_IncDeg=self.Theta_i_deg
+        write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, ParentDIR)
+
+        #    import os
+        #    parent_dir = os.path.split(os.getcwd())[0]
+        script_path = ParentDIR+'/src/'+'Run_profcn_II_fort_FromPython.py'
+        print(script_path)
+        # Run Fortran:
+        subprocess.run(['python', script_path], capture_output=True, text=True)
+        #>>>>>>>>>
+
+        content_Rad_SWF_hs=infunc_content_Rad_SWF(ParentDIR)
+        #    content_Ang_SWF_hs=infunc_content_Ang_SWF()
+        content_dr_values_hs=infunc_content_dr_values(ParentDIR)
+        # -------------------------------------------------------------------------
+
+        # hw:-------------------------------------------------------------------
+        c_nondimensional=hw
+        Theta_IncDeg=self.Theta_i_deg
+        write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, ParentDIR)
+
+        # Run Fortran:
+        subprocess.run(['python', script_path], capture_output=True, text=True)
+        #>>>>>>>>>
+        content_Rad_SWF_hw=infunc_content_Rad_SWF(ParentDIR)
+        #    content_Ang_SWF_hw=infunc_content_Ang_SWF()
+        content_dr_values_hw=infunc_content_dr_values(ParentDIR)
+        # -------------------------------------------------------------------------
+        m = -1
+        CHECK_fbm_value = True
+        angles = np.zeros(num_angles_per_half_plane * 2, dtype=np.float64)
+        pattern = np.zeros(num_angles_per_half_plane * 2, dtype=np.complex128)
+        last_f_bs = -100000 * np.ones(num_angles_per_half_plane * 2)
+        while CHECK_fbm_value:
+            m = m + 1
+
+            if hs > 60 :
+                N_order = N_at_m0_for_hs - 0.033*(m**2) - (80/N_at_m0_for_hs)*(m)
+            else:
+                N_order = N_at_m0_for_hs - 1*(m)
+
+            N_order = int(np.ceil(N_order))
+
+            angles_m, pattern_m = calculate_fbs(num_angles_per_half_plane, content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw,
+                                                content_dr_values_hw, self.Theta_i_deg, m, N_order_Fortran, N_order, self.solver,
+                                                self.ro_s, self.ro_w, kw)
+            pattern += pattern_m
+            angles = angles_m
+
+            print('m: ',str(m), ' of ',str(M_order), ', N: ', str(N_order))
+
+            if (np.max(np.abs(last_f_bs-pattern_m)) < 1E-5) or (m >= M_order_Fortran):
+                CHECK_fbm_value = False
+
+            last_f_bs = pattern_m
+
+        return angles, np.absolute(pattern)
 
 
 def write_Inputfile(c_nondimensional,AspectRatio,M_order,N_order,Theta_IncDeg, _parent_dir):
@@ -258,7 +338,7 @@ def write_Inputfile(c_nondimensional,AspectRatio,M_order,N_order,Theta_IncDeg, _
     eta1=np.cos(np.pi*Theta_IncDeg/180)
     eta2=np.cos(np.pi-np.pi*Theta_IncDeg/180)   
 
-    file_name = _parent_dir+'/src/'+'profcn.dat'
+    file_name = os.path.join(_parent_dir, 'src', 'profcn.dat')
     
 # Writing the NumPy array to the DAT file
     #Arr = np.array([], dtype=np.float64)
@@ -286,8 +366,7 @@ write_Inputfile(c_nondimensional,AspRatio,M_order,N_order,Theta_IncDeg)
 #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 def infunc_content_Rad_SWF(_parent_dir):
 
-    DirFortran=_parent_dir+'/src/'
-    fort20File=DirFortran+'fort.20'
+    fort20File=os.path.join(_parent_dir, 'src', 'fort.20')
     '''
     fort.20 contains  
     x, c, m  followed by 
@@ -305,8 +384,7 @@ def infunc_content_Rad_SWF(_parent_dir):
     
 def infunc_content_dr_values(_parent_dir):
 
-    DirFortran=_parent_dir+'/src/'
-    fort70File=DirFortran+'fort.70'
+    fort70File=os.path.join(_parent_dir, 'src', 'fort.70')
     '''
     fort.70 contains  
     x, c, m  followed by 
@@ -438,10 +516,8 @@ def func_Generate_Partition_Matrices(content_Rad_SWF_hs, content_dr_values_hs, c
             Part_Smn_hw_CosThetai_x_CosThetas_vec_Exp] 
 
 
-def Estimate_fmn_from_CBetaD_Mat_CBetaFvec(C_Beta_D_Matrix_Arg, C_Beta_D_Matrix_Exp, C_Beta_F_Vector_Arg,
-                                           C_Beta_F_Vector_Exp, Smn_hw_CosThetai_x_CosThetas_vec_Arg,
-                                           Smn_hw_CosThetai_x_CosThetas_vec_Exp, solver, kw):
-
+def solve_amn(C_Beta_D_Matrix_Arg, C_Beta_D_Matrix_Exp, C_Beta_F_Vector_Arg,
+              C_Beta_F_Vector_Exp, solver):
     # Create a matrix with all elements 10. we want to have the 10 ** numbers
     Matrix10_Exps = (10 + 0*C_Beta_D_Matrix_Exp) ** C_Beta_D_Matrix_Exp
     # Multiply the matrices element-wise
@@ -451,10 +527,19 @@ def Estimate_fmn_from_CBetaD_Mat_CBetaFvec(C_Beta_D_Matrix_Arg, C_Beta_D_Matrix_
     Vector10=10 + 0*C_Beta_F_Vector_Exp
     # Multiply the vectors element-wise
     C_Beta_F_Vector = np.multiply(C_Beta_F_Vector_Arg , (Vector10**C_Beta_F_Vector_Exp))
-#   # ----------------------------------------------------------------
+    #   # ----------------------------------------------------------------
 
     A_mn_vec = solver.solve(C_Beta_D_Matrix.T, C_Beta_F_Vector.T)
     A_mn_vec = A_mn_vec.T
+    return A_mn_vec
+
+
+def Estimate_fmn_from_CBetaD_Mat_CBetaFvec(C_Beta_D_Matrix_Arg, C_Beta_D_Matrix_Exp, C_Beta_F_Vector_Arg,
+                                           C_Beta_F_Vector_Exp, Smn_hw_CosThetai_x_CosThetas_vec_Arg,
+                                           Smn_hw_CosThetai_x_CosThetas_vec_Exp, solver, kw):
+
+    A_mn_vec = solve_amn(C_Beta_D_Matrix_Arg, C_Beta_D_Matrix_Exp, C_Beta_F_Vector_Arg,
+                         C_Beta_F_Vector_Exp, solver)
 
     Vec10 = 10 + 0 * Smn_hw_CosThetai_x_CosThetas_vec_Exp
     Smn_hw_CosThetai_x_CosThetas_vec = Smn_hw_CosThetai_x_CosThetas_vec_Arg * (Vec10**Smn_hw_CosThetai_x_CosThetas_vec_Exp)
@@ -498,3 +583,80 @@ def Calculate_fbm(content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw, 
                                                   Smn_hw_CosThetai_x_CosThetas_vec_Exp, solver, kw)
     
     return [_f_bm]
+
+
+def calculate_fbs(num_angles_per_half_plane, content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw, content_dr_values_hw, Theta_i_deg, m,
+                  N_order_Fortran, N_order, solver, ro_s, ro_w, kw):
+    N_col_start = 0
+    N_col_end = N_order
+    N_row_start = 0
+    N_row_end = N_order
+
+    [C_Beta_D_Matrix_Arg,
+     C_Beta_D_Matrix_Exp,
+     C_Beta_F_Mat_Arg,
+     C_Beta_F_Mat_Exp,
+     _,
+     _] = func_Generate_Partition_Matrices(content_Rad_SWF_hs, content_dr_values_hs,
+                                                                              content_Rad_SWF_hw, content_dr_values_hw,
+                                                                              Theta_i_deg, m, N_order_Fortran,
+                                                                              N_col_start, N_col_end, N_row_start,
+                                                                              N_row_end, ro_s, ro_w)
+
+    C_Beta_F_Vector_Arg=np.zeros((1,C_Beta_F_Mat_Arg.shape[1]), dtype = 'complex')
+    C_Beta_F_Vector_Exp=np.zeros((1,C_Beta_F_Mat_Arg.shape[1]), dtype = 'float')
+
+    for ss_col in range(0,C_Beta_F_Mat_Arg.shape[1]):
+        Summation_C_Beta_F=np.zeros((2),dtype='float')
+        for ss_row in range(0,C_Beta_F_Mat_Arg.shape[0]):
+            Summation_C_Beta_F=Sum_ArgExp(Summation_C_Beta_F, [C_Beta_F_Mat_Arg[ss_row][ss_col], C_Beta_F_Mat_Exp[ss_row][ss_col]])
+
+        C_Beta_F_Vector_Arg[0][ss_col] = Summation_C_Beta_F[0]
+        C_Beta_F_Vector_Exp[0][ss_col] = Summation_C_Beta_F[1]
+
+    amn = solve_amn(C_Beta_D_Matrix_Arg, C_Beta_D_Matrix_Exp, C_Beta_F_Vector_Arg,
+                    C_Beta_F_Vector_Exp, solver)
+    if m == 0:
+        Em=1
+    else:
+        Em=2
+
+    eta_i=np.cos(np.pi*Theta_i_deg/180)
+    Em_x_Smn_hw_eta_i = []
+    nn=-1
+    for n in range(m + N_row_start , N_row_end + m):  # n index Loop: n=m,1,2,...,N : This fills the rows in Matrices
+        nn=nn+1
+        dmn_r_hw_ArgExp=func_dr_values_ArgExp(content_dr_values_hw, m, n , N_order_Fortran)# func_Adelman_dr_mn_of_c(DirPSWF, m, n, hw, Prec)
+        Smn_hw_eta_i_arg_exp=func_Smn_eta_c_from_dr_ArgExp(m, n, eta_i, dmn_r_hw_ArgExp)
+        Smn_hw_eta_i = Smn_hw_eta_i_arg_exp[0]*10**Smn_hw_eta_i_arg_exp[1]
+        Em_x_Smn_hw_eta_i.append(Em * Smn_hw_eta_i)
+    Em_x_Smn_hw_eta_i = np.asarray(Em_x_Smn_hw_eta_i)
+
+    angles = np.zeros(num_angles_per_half_plane * 2, dtype=np.float64)
+    pattern = np.zeros(num_angles_per_half_plane * 2, dtype=np.complex128)
+    cos_phi_m = np.cos(0) # phi = 0
+    counter = 0
+    for theta_s in np.linspace(start=0, num=num_angles_per_half_plane, stop=180, endpoint=False):
+        vec = compute_pattern_vec(amn, theta_s, content_dr_values_hw, Em_x_Smn_hw_eta_i, N_order_Fortran, N_row_start, N_row_end, m, cos_phi_m)
+        pattern[counter] = (2/(1j*kw))*amn@np.transpose(vec)
+        angles[counter] = theta_s
+        counter += 1
+    cos_phi_m = np.cos(np.pi * m) # phi = 180
+    for theta_s in np.linspace(start=180, num=num_angles_per_half_plane, stop=0, endpoint=False):
+        vec = compute_pattern_vec(amn, theta_s, content_dr_values_hw, Em_x_Smn_hw_eta_i, N_order_Fortran, N_row_start, N_row_end, m, cos_phi_m)
+        pattern[counter] = (2/(1j*kw))*amn@np.transpose(vec)
+        angles[counter] = 360 - theta_s
+        counter += 1
+    return angles, pattern
+
+
+def compute_pattern_vec(amn, theta_s, content_dr_values_hw, Em_x_Smn_hw_eta_i, N_order_Fortran, N_row_start, N_row_end, m, cos_phi_m):
+    vec = np.zeros(N_row_end, dtype=np.complex128)
+    for n in range(m + N_row_start , N_row_end + m):
+        #  add Smn(cos(theta_s)*cos(m*phi_s) to Em_x_Smn_hw_eta_i[n]
+        eta_s=np.cos(np.pi*theta_s/180)
+        dmn_r_hw_ArgExp=func_dr_values_ArgExp(content_dr_values_hw, m, n , N_order_Fortran)
+        smn_s_arg_exp = func_Smn_eta_c_from_dr_ArgExp(m, n, eta_s, dmn_r_hw_ArgExp)
+        smn_hw_eta_s = smn_s_arg_exp[0]*10**smn_s_arg_exp[1]
+        vec[n-m] = (Em_x_Smn_hw_eta_i[n - m] * smn_hw_eta_s * cos_phi_m)
+    return vec
