@@ -14,9 +14,9 @@ The code is written in Python and uses "A.L. Van-Buren, Mathieu and spheroidal w
 functions fortran programs for their accurate calculation., (n.d.). https://github.com/mathieuandspheroidalwavefunctions." for the expansion coefficients with the Meixner and Schafke normalization scheme, 
 and the prolate spheroidal radial functions of the first and second kind and their derivatives, 
 
-References:
-A.L. Van Buren, J.E. Boisvert, Accurate calculation of prolate spheroidal radial functions of the first kind and their first derivatives, Quarterly of Applied Mathematics LX (2002) 589–599.
-A.L. Van Buren, J.E. Boisvert, Improved calculation of Prolate Spheroidal Radial functions of the second kind and their first derivatives, Quarterly of Applied Mathematics LXII (2004) 493–507.
+References:<br>
+A.L. Van Buren, J.E. Boisvert, Accurate calculation of prolate spheroidal radial functions of the first kind and their first derivatives, Quarterly of Applied Mathematics LX (2002) 589–599.<br>
+A.L. Van Buren, J.E. Boisvert, Improved calculation of Prolate Spheroidal Radial functions of the second kind and their first derivatives, Quarterly of Applied Mathematics LXII (2004) 493–507.<br>
 
 
 ## How to run the script to model the backscattering from a liquid- or gas-filled prolate spheroid
@@ -26,22 +26,22 @@ A.L. Van Buren, J.E. Boisvert, Improved calculation of Prolate Spheroidal Radial
 2 - Run one of the scripts src/script_liquid_filled.py or src/script_air_filled.py which are set up to use the liquid- and  gas-filled settings respectively. The result is the TS as a function of frequency which saves the csv file in the temp folder.
 
 ```
-python3 src/script_liquid_filled.py
+python3 script_liquid_filled.py
 ```
 
 or
 
 ```
-python3 src/script_air_filled.py
+python3 script_air_filled.py
 ```
-
 
 Optional - Define your own settings in src/script_user_defined.py, and run 
 
 ```
-python3 src/script_user_defined.py
+python3 script_user_defined.py
 ```
 
+The scripts assumes that they are run from the src directory.
 
 ## Dependencies
 
