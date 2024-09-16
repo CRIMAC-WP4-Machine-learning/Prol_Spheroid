@@ -9,12 +9,11 @@ Code for backscattering calculations of penetrable (gas or fluid) prolate sphero
 with high precision for a wide range of tilt angles and large frequency ranges used 
 in the fisheries acoustics. 
 
-
 The code is written in Python and uses "A.L. Van-Buren, Mathieu and spheroidal wave 
 functions fortran programs for their accurate calculation., (n.d.). https://github.com/mathieuandspheroidalwavefunctions." for the expansion coefficients with the Meixner and Schafke normalization scheme, 
 and the prolate spheroidal radial functions of the first and second kind and their derivatives, 
 
-References:<br>
+<b>References:</b><br>
 A.L. Van Buren, J.E. Boisvert, Accurate calculation of prolate spheroidal radial functions of the first kind and their first derivatives, Quarterly of Applied Mathematics LX (2002) 589–599.<br>
 A.L. Van Buren, J.E. Boisvert, Improved calculation of Prolate Spheroidal Radial functions of the second kind and their first derivatives, Quarterly of Applied Mathematics LXII (2004) 493–507.<br>
 
@@ -35,13 +34,30 @@ or
 python3 script_air_filled.py
 ```
 
-Optional - Define your own settings in src/script_user_defined.py, and run 
+Optionally you can define your own settings in src/script_user_defined.py, and run 
 
 ```
 python3 script_user_defined.py
 ```
 
 The scripts assumes that they are run from the src directory.
+
+## Verification results
+
+A number of test cases has been calculated using COMSOL Multiphysics. These 
+resutlts are found in /COMSOL_results.
+
+The acoustic properties and dimentions of the prolate spheroids are
+
+| Material | Density (kg.m-3) | Sound speed (m/s) | Semi-major axis a (mm) | Semi-minor axis b (mm) |
+|----------|------------------|-------------------|------------------------|------------------------|
+| Water	   | 1027	          | 1500	          | NA                     | NA                     |
+| Liquid   | 1027×1.05	      | 1500×1.05	      | 80	                   | 20                     |
+| Gas	   | 10	              | 343          	  | 30	                   | 10                     | 
+
+Material of the prolate spheroid, aspect ratio, angle of incidence, and acoustic frequencies are also found in the file titles.
+
+E.g. Air_Prol_B1cm_AspR2_ro10_c343_Theta15_f38_300kHz.csv (air, b, aspect ratio, density, soundspeed, angle, frequency from:to).
 
 ## Dependencies
 
@@ -53,7 +69,7 @@ E.g run:
 pip install -r requirements.txt
 ```
 
-## Citing the code?
+## Citing the code
 
 If you use the code for you research, please cite the article once published (currently under review)
 
