@@ -227,6 +227,8 @@ class ProlateSpheroid:
         #plt.plot(COMSOL3[COMSOL3.columns[0]]/1000,COMSOL3[COMSOL3.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution')
         #plt.plot(COMSOL4[COMSOL4.columns[0]]/1000,COMSOL4[COMSOL4.columns[1]],color='k',dashes=[3,2],linewidth=2.5,label='Comsol Solution')
         plt.plot(self.freq_vec[0:len(TS)]/1000, TS, marker='o',markersize=4, color=[1,0,0])
+        plt.xlabel('Frequency [kHz]')
+        plt.ylabel('Target Strength [dB re 1m^2]')
         plt.show()
         #
 

@@ -4,7 +4,7 @@ class LiquidFilledSettings:
 
     def __init__(self):
         self.prefix = 'liquid'
-        # media properties
+        # media properties (w:media surrounding the spheroid, s:spheroid)
         self.ro_w = 1027
         self.ro_s = 1027 * 1.05
         self.c_w = 1500
@@ -27,7 +27,7 @@ class AirFilledSettings:
 
     def __init__(self):
         self.prefix = 'airfilled'
-        # media properties
+        # media properties (w:media surrounding the spheroid, s:spheroid)
         self.ro_w = 1027
         self.ro_s = 10
         self.c_w = 1500
