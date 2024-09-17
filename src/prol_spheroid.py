@@ -135,6 +135,13 @@ class ProlateSpheroid:
             ks=w/self.c_s
             hw=self.d*kw/2
             hs=self.d*ks/2
+            
+            if hs < 52:
+               drN = 71
+            elif hs < 152:
+               drN = 111
+            else:
+               drN = 151 
 
             N_at_m0_for_hs = 0.75 * hs + np.ceil(10-7*np.sin(self.Theta_i_deg*np.pi/180))
 
@@ -153,7 +160,7 @@ class ProlateSpheroid:
             # hs:-------------------------------------------------------------------
             c_nondimensional=hs
             Theta_IncDeg=self.Theta_i_deg
-            write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, ParentDIR)
+            write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, drN, ParentDIR)
 
             #    import os
             #    parent_dir = os.path.split(os.getcwd())[0]
@@ -171,7 +178,7 @@ class ProlateSpheroid:
             # hw:-------------------------------------------------------------------
             c_nondimensional=hw
             Theta_IncDeg=self.Theta_i_deg
-            write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, ParentDIR)
+            write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, drN, ParentDIR)
 
             # Run Fortran:
             subprocess.run(['python', script_path], capture_output=True, text=True)
@@ -246,6 +253,13 @@ class ProlateSpheroid:
         ks=w/self.c_s
         hw=self.d*kw/2
         hs=self.d*ks/2
+        
+        if hs < 52:
+           drN = 51
+        elif hs < 102:
+           drN = 101
+        else:
+           drN = 151 
 
         N_at_m0_for_hs = 0.75 * hs + np.ceil(10-7*np.sin(self.Theta_i_deg*np.pi/180))
 
@@ -264,7 +278,7 @@ class ProlateSpheroid:
         # hs:-------------------------------------------------------------------
         c_nondimensional=hs
         Theta_IncDeg=self.Theta_i_deg
-        write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, ParentDIR)
+        write_Inputfile(c_nondimensional,self.AspRatio, M_order_Fortran, N_order_Fortran ,Theta_IncDeg, drN, ParentDIR)
 
         #    import os
         #    parent_dir = os.path.split(os.getcwd())[0]
@@ -282,7 +296,7 @@ class ProlateSpheroid:
         # hw:-------------------------------------------------------------------
         c_nondimensional=hw
         Theta_IncDeg=self.Theta_i_deg
-        write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, ParentDIR)
+        write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, drN, ParentDIR)
 
         # Run Fortran:
         subprocess.run(['python', script_path], capture_output=True, text=True)
@@ -322,7 +336,7 @@ class ProlateSpheroid:
         return angles, np.absolute(pattern)
 
 
-def write_Inputfile(c_nondimensional,AspectRatio,M_order,N_order,Theta_IncDeg, _parent_dir):
+def write_Inputfile(c_nondimensional,AspectRatio,M_order,N_order,Theta_IncDeg, _drN, _parent_dir):
     mmin=0   # minimum value for m. (integer)
     minc=1   # increment for m. (integer)
     mnum=M_order   # number of values of m. (integer)
@@ -347,7 +361,8 @@ def write_Inputfile(c_nondimensional,AspectRatio,M_order,N_order,Theta_IncDeg, _
     Arr=[[mmin,minc,mnum,lnum],
                     [ioprad,iopang,iopnorm],
                     [c_nondimensional,x1],
-                    [ioparg,eta1,eta2]]
+                    [ioparg,eta1,eta2],
+                    [_drN]]
     with open(file_name, 'w') as file:
         for row in Arr:
             # Convert each element to string and join them with a space

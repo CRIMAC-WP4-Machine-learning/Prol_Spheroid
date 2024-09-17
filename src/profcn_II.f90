@@ -126,7 +126,8 @@ program profcn
 !    real(knd) arg1, c, darg, x1
     real(knd) arg1, c, darg, x1, eta1, eta2
     real(knd), DIMENSION(:), ALLOCATABLE :: argvec
-
+	integer drN
+	
 !  Here is where the user sets kindd, the value for kind that corresponds
 !  to double precision data on the users computer. Similarly, this is where
 !  kindq, the value of kind for quadruple precision data, is set. These
@@ -182,6 +183,7 @@ end if
 				        	! 1.0327955589d0corresponds to the aspect ratio of "4"
 				        	!  x1= 0.0327955589d0 is used                        
     if(iopang /= 0) read(1,*) ioparg, eta1, eta2
+    read(1,*) drN2
     if(x1 == 0.0e0_knd) ioprad = 1    
 
     argvec=[eta1, eta2]	
@@ -226,7 +228,7 @@ end if
      call main (mmin, minc, mnum, lnum, c, ioprad, iopang, iopnorm, &
           minacc, x1, ngau, ioparg, arg1, darg, narg,argvec, neta, maxd, &
           maxdr, maxint, maxj, maxlp, maxm, maxmp, maxn, maxp, &
-          maxpdr, maxq, maxt, jnenmax, kindd, kindq, ndec, nex)
+          maxpdr, maxq, maxt, jnenmax, kindd, kindq, ndec, nex, drN2)
 !
     end
 !
@@ -235,7 +237,7 @@ end if
              minacc, x1, ngau, ioparg, arg1, darg, narg, argvec, neta, maxd, &
              maxdr, maxint, maxj, maxlp, maxm, maxmp, maxn, maxp, &
              maxpdr, maxq, maxt, jnenmax, kindd, kindq, ndec, &
-             nex)
+             nex, drN2)
 !
 !  purpose:     To coordinate the calculation of both the prolate
 !               spheroidal radial and angular functions and their
@@ -1504,7 +1506,7 @@ end if
 !end if
 
 ! Define drN as a constant parameter
-       drN = 121
+       drN = drN2
 
 if (output) then
        if(nacce /= 1) chr = 'w'
@@ -1515,31 +1517,40 @@ if (output) then
        if(ioprad == 1) write(70,709) l, dmlms, idmlmse !, dmlms, idmlmse, dmlmf, idmlmfe
        if(ioprad == 2) write(70,709) l, dmlms, idmlmse !, dmlms, idmlmse, dmlmf, idmlmfe
   
+!       if(ioprad == 2) then
+!        IF (ANY(ABS(enr(1:drN)) > 10000.0)) THEN
+!             write(70, 716) l, enr(1:drN),  chr
+!         ELSE IF (ANY(ABS(enr(1:drN)) > 1000.0)) THEN
+!			 write(70, 714) l, enr(1:drN),  chr
+!         ELSE IF (ANY(ABS(enr(1:drN)) > 10.0)) THEN
+!             write(70, 712) l, enr(1:drN),  chr
+!         ELSE
+!             write(70, 711) l, enr(1:drN),  chr
+!         END IF
+!       end if 
+       
        if(ioprad == 2) then
-         IF (ANY(ABS(enr(1:drN)) > 10000.0)) THEN
-             write(70, 716) l, enr(1:drN),  chr
-         ELSE IF (ANY(ABS(enr(1:drN)) > 1000.0)) THEN
-			 write(70, 714) l, enr(1:drN),  chr
-         ELSE IF (ANY(ABS(enr(1:drN)) > 10.0)) THEN
-             write(70, 712) l, enr(1:drN),  chr
-         ELSE
-             write(70, 711) l, enr(1:drN),  chr
-         END IF
+         
+         IF (drN < 72) THEN
+			write(70, 711) l, enr(1:drN),  chr
+		 ELSE IF (drN < 112) THEN
+		    write(70, 712) l, enr(1:drN),  chr
+		 ELSE 
+		    write(70, 713) l, enr(1:drN),  chr
+		 END IF  
+		  
        end if 
-!690      format(1x, i6, 2x, 4(f17.14, 1x, i6, 2x), i2, a)
-!709      format(1x, i6, 2x, 1(f17.14, 2x, i6, 1x))
-!710      format(1x, i6, 2x, 2(f17.14, 1x, i6, 2x))
-!711      format(1x, i6, 2x,  121(f17.14, 1x),  a)
-!712      format(1x, i6, 2x,  121(f17.12, 1x),  a)
-!714     format(1x, i6, 2x,  121(f17.10, 1x),  a)
-!716     format(1x, i6, 2x,  121(f17.6, 1x),  a)
+!       write(*,*) 'The value of drN is: ', drN
+!       write(*,*) 'The value of drN2 is: ', drN2
+
+
 690      format(1x, i6, 2x, 4(f17.14, 1x, i6, 2x), i2, a)
 709      format(1x, i6, 2x, 1(f17.14, 2x, i6, 1x))
 710      format(1x, i6, 2x, 2(f17.14, 1x, i6, 2x))
-711      format(1x, i6, 2x,  121(e39.30, 1x),  a)
-712      format(1x, i6, 2x,  121(e39.30, 1x),  a)
-714     format(1x, i6, 2x,  121(e39.30, 1x),  a)
-716     format(1x, i6, 2x,  121(e39.30, 1x),  a)
+
+711      format(1x, i6, 2x,  71(e39.30, 1x),  a)
+712      format(1x, i6, 2x,  111(e39.30, 1x),  a)
+713     format(1x, i6, 2x,  151(e39.30, 1x),  a)
 end if
 
        if(ioprad /= 2) go to 720
