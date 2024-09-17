@@ -183,7 +183,6 @@ end if
 				        	! 1.0327955589d0corresponds to the aspect ratio of "4"
 				        	!  x1= 0.0327955589d0 is used                        
     if(iopang /= 0) read(1,*) ioparg, eta1, eta2
-    read(1,*) drN2
     if(x1 == 0.0e0_knd) ioprad = 1    
 
     argvec=[eta1, eta2]	
@@ -228,7 +227,7 @@ end if
      call main (mmin, minc, mnum, lnum, c, ioprad, iopang, iopnorm, &
           minacc, x1, ngau, ioparg, arg1, darg, narg,argvec, neta, maxd, &
           maxdr, maxint, maxj, maxlp, maxm, maxmp, maxn, maxp, &
-          maxpdr, maxq, maxt, jnenmax, kindd, kindq, ndec, nex, drN2)
+          maxpdr, maxq, maxt, jnenmax, kindd, kindq, ndec, nex)
 !
     end
 !
@@ -237,7 +236,7 @@ end if
              minacc, x1, ngau, ioparg, arg1, darg, narg, argvec, neta, maxd, &
              maxdr, maxint, maxj, maxlp, maxm, maxmp, maxn, maxp, &
              maxpdr, maxq, maxt, jnenmax, kindd, kindq, ndec, &
-             nex, drN2)
+             nex)
 !
 !  purpose:     To coordinate the calculation of both the prolate
 !               spheroidal radial and angular functions and their
@@ -1506,7 +1505,13 @@ end if
 !end if
 
 ! Define drN as a constant parameter
-       drN = drN2
+IF (c < 52) THEN
+   drN = 71
+ELSE IF (c < 152) THEN
+   drN = 111
+ELSE
+   drN = 151 
+END IF
 
 if (output) then
        if(nacce /= 1) chr = 'w'
@@ -1531,9 +1536,9 @@ if (output) then
        
        if(ioprad == 2) then
          
-         IF (drN < 72) THEN
+         IF (c < 52) THEN
 			write(70, 711) l, enr(1:drN),  chr
-		 ELSE IF (drN < 112) THEN
+		 ELSE IF (c < 152) THEN
 		    write(70, 712) l, enr(1:drN),  chr
 		 ELSE 
 		    write(70, 713) l, enr(1:drN),  chr
@@ -1541,7 +1546,6 @@ if (output) then
 		  
        end if 
 !       write(*,*) 'The value of drN is: ', drN
-!       write(*,*) 'The value of drN2 is: ', drN2
 
 
 690      format(1x, i6, 2x, 4(f17.14, 1x, i6, 2x), i2, a)
