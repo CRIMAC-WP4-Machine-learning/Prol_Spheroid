@@ -1505,12 +1505,14 @@ end if
 !end if
 
 ! Define drN as a constant parameter
-IF (c < 52) THEN
+IF (c < 32) THEN
+   drN = 51
+ELSE IF (c < 52) THEN
    drN = 71
 ELSE IF (c < 152) THEN
-   drN = 111
+   drN = 121
 ELSE
-   drN = 151 
+   drN = 161 
 END IF
 
 if (output) then
@@ -1535,13 +1537,15 @@ if (output) then
 !       end if 
        
        if(ioprad == 2) then
-         
-         IF (c < 52) THEN
+       
+         IF (c < 32) THEN
 			write(70, 711) l, enr(1:drN),  chr
+         ELSE IF (c < 52) THEN
+			write(70, 712) l, enr(1:drN),  chr
 		 ELSE IF (c < 152) THEN
-		    write(70, 712) l, enr(1:drN),  chr
-		 ELSE 
 		    write(70, 713) l, enr(1:drN),  chr
+		 ELSE 
+		    write(70, 714) l, enr(1:drN),  chr
 		 END IF  
 		  
        end if 
@@ -1552,9 +1556,10 @@ if (output) then
 709      format(1x, i6, 2x, 1(f17.14, 2x, i6, 1x))
 710      format(1x, i6, 2x, 2(f17.14, 1x, i6, 2x))
 
-711      format(1x, i6, 2x,  71(e39.30, 1x),  a)
-712      format(1x, i6, 2x,  111(e39.30, 1x),  a)
-713     format(1x, i6, 2x,  151(e39.30, 1x),  a)
+711      format(1x, i6, 2x,  51(e39.30, 1x),  a)
+712      format(1x, i6, 2x,  71(e39.30, 1x),  a)
+713     format(1x, i6, 2x,  121(e39.30, 1x),  a)
+714     format(1x, i6, 2x,  161(e39.30, 1x),  a)
 end if
 
        if(ioprad /= 2) go to 720
