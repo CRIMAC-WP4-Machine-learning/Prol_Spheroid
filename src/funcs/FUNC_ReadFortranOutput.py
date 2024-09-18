@@ -92,6 +92,12 @@ def func_dr_values_ArgExp(content1, m, l , lnum):
     # Convert each string to float using a list comprehension
     enr_vec = [float(value) for value in data_of_line[1:-1]]
     
+    #Disregard last part of enr_vec which is zero:------------------------
+    ZeroInds = np.where(np.abs(enr_vec) > 1E-20)[0]
+    if ZeroInds[-1] < len(enr_vec):
+       enr_vec = enr_vec[0:(ZeroInds[-1]+1)]
+    #---------------------------------------------------------------------
+    
     if ((l-m) % 2)==0:
         ix=0
     else:
@@ -434,7 +440,7 @@ def func_Integrate_SmnEta1_SmlEta2_ArgExp(_m, _n, _l, _dmn_r_h1_vec, _dml_r_h2_v
 
     
     Sum_r_terms=np.zeros((2),dtype='float')
-    R_terms=111
+    R_terms=150
     for rr in range(0,min(int(len(_dmn_r_h1_vec)/2), int(len(_dml_r_h2_vec)/2), R_terms)):
         if ((_n + _m) % 2)==0:
             rr=2*rr
