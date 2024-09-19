@@ -15,12 +15,12 @@ class LiquidFilledSettings:
         self.b = 0.02
 
         # frequencies
-        self.delta_f = 2000
-        self.min_freq = 100000
-        self.max_freq = 120100
+        self.delta_f = 300
+        self.min_freq = 1000
+        self.max_freq = 70100
 
         #incidence angle
-        self.theta_i_deg = 90
+        self.theta_i_deg = 0.001
 
 
 class AirFilledSettings:

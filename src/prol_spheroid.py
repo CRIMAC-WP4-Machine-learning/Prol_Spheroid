@@ -208,7 +208,7 @@ class ProlateSpheroid:
 
                 f_b_sum=f_b_sum+f_bm
 
-                if (np.abs(last_f_bs-f_bm) < 1E-5) or (m >= M_order_Fortran):
+                if (np.abs(last_f_bs-f_bm) < 1E-5) or (m >= (M_order_Fortran-1)):
                     CHECK_fbm_value = False
 
                 last_f_bs = f_bm
