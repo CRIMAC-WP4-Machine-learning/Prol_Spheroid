@@ -71,15 +71,15 @@ pip install -r requirements.txt
 
 ## Citing the code
 
-If you use the code for you research, please cite the article once published (currently under review)
+If you use the code for you research, please cite the article once published (it is currently under review in the Journal of Sound and Vibration)
 
 ```
 @article{khodabandeloo2024prolate,
   title={High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles – Implications in fisheries acoustics},
-  author={},
-  journal={xxxx},
-  pages={xxxx},
-  year={xxxx},
-  publisher={xxxx}
+  author={Babak Khodabandeloo, Yngve Heggelund, Bjørnar Ystad, Geir Pedersen},
+  journal={Journal of Sound and Vibration},
+  pages={in review},
+  year={in review},
+  publisher={Elsevier}
 }
 ```
