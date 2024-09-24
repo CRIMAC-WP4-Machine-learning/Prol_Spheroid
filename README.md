@@ -1,13 +1,15 @@
 # High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles
 
+<b>Code for backscattering calculations of penetrable (gas or fluid) prolate spheroids 
+with high precision for a wide range of tilt angles and large frequency ranges used 
+in fisheries acoustics.</b>
+
 Accompanging code to the manuscript "High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles – Implications in fisheries acoustics" (Khodabandeloo et al.) 
 submitted to Journal of Sound and Vibration for review.
 
 The current release "ProlateSpheroidv0.9" is the release corresponding to the submission of the manuscript.
 
-Code for backscattering calculations of penetrable (gas or fluid) prolate spheroids 
-with high precision for a wide range of tilt angles and large frequency ranges used 
-in the fisheries acoustics. 
+
 
 The code is written in Python and uses "A.L. Van-Buren, Mathieu and spheroidal wave 
 functions fortran programs for their accurate calculation., (n.d.). https://github.com/mathieuandspheroidalwavefunctions." for the expansion coefficients with the Meixner and Schafke normalization scheme, 
