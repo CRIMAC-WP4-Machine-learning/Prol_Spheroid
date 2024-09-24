@@ -11,12 +11,15 @@ in the fisheries acoustics.
 
 The code is written in Python and uses "A.L. Van-Buren, Mathieu and spheroidal wave 
 functions fortran programs for their accurate calculation., (n.d.). https://github.com/mathieuandspheroidalwavefunctions." for the expansion coefficients with the Meixner and Schafke normalization scheme, 
-and the prolate spheroidal radial functions of the first and second kind and their derivatives, 
-
-<b>References:</b><br>
+and the prolate spheroidal radial functions of the first and second kind and their derivatives, <br>
 A.L. Van Buren, J.E. Boisvert, Accurate calculation of prolate spheroidal radial functions of the first kind and their first derivatives, Quarterly of Applied Mathematics LX (2002) 589–599.<br>
 A.L. Van Buren, J.E. Boisvert, Improved calculation of Prolate Spheroidal Radial functions of the second kind and their first derivatives, Quarterly of Applied Mathematics LXII (2004) 493–507.<br>
 
+Iterative refinement (Ziaeemehr, 2021) and the biconjugate gradient stabilized (Bi-CGSTAB) (Van der Vorst, 1992) methods with incomplete LU-factorization (ILU) as preconditioning is also used. <br>
+A. Ziaeemehr, Solvers - terative Refinement method, (2021). https://github.com/Ziaeemehr/solvers/blob/master/py/iterativeRefinement.ipynb <br>
+H.A. Van der Vorst, Bi-CGSTAB: A fast and smoothly converging variant of Bi-CG for the solution of nonsymmetric linear systems., SIAM Journal on Scientific and Statistical Computing, 13 (1992) 631-644<br>
+
+For more details, see the paper (<it>in review</it>).
 
 ## How to run the script to model the backscattering from a liquid- or gas-filled prolate spheroid
 
