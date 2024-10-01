@@ -43,7 +43,7 @@ if __name__ == '__main__':
     parentdir=os.path.split(os.getcwd())[0]
 
     freq_Hz = 100000
-    file = os.path.join(parentdir, 'temp', 'bs_pattern_{}_a_{}_b_{}_f_{}_rhos_{:.2f}_IncAngle_{}_{}.csv'.format(
+    file = os.path.join(parentdir, 'temp', 'scatter_pattern_{}_a_{}_b_{}_f_{}_rhos_{:.2f}_IncAngle_{}_{}.csv'.format(
         liquid_filled_settings.prefix,
         liquid_filled_settings.a, liquid_filled_settings.b,
         int(freq_Hz / 1000),

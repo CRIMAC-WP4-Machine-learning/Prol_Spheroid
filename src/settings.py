@@ -19,8 +19,11 @@ class LiquidFilledSettings:
         self.min_freq = 1000
         self.max_freq = 70100
 
-        #incidence angle
+        #incident angle
         self.theta_i_deg = 0.001
+
+        #precision
+        self.precision_fbs = 1e-5
 
 
 class AirFilledSettings:
@@ -46,5 +49,8 @@ class AirFilledSettings:
         self.min_freq = 38000
         self.max_freq = 300100
 
-        #incidence angle
+        # incident angle
         self.theta_i_deg = 90
+
+        # precision
+        self.precision_fbs = 1e-5
