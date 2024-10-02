@@ -8,19 +8,19 @@ class LiquidFilledSettings:
         self.ro_w = 1027
         self.ro_s = 1027 * 1.05
         self.c_w = 1500
-        self.c_s = 1500 * 1.05
+        self.c_s = 1500 * 1.2
 
         # geometrical properties
-        self.a = 0.08
-        self.b = 0.02
+        self.a = 0.07
+        self.b = 0.01
 
         # frequencies
-        self.delta_f = 300
-        self.min_freq = 1000
-        self.max_freq = 70100
+        self.delta_f = 750
+        self.min_freq = 377000
+        self.max_freq = 400100
 
         #incidence angle
-        self.theta_i_deg = 0.001
+        self.theta_i_deg = 45
 
 
 class AirFilledSettings:
