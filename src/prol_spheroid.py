@@ -35,6 +35,7 @@ class ProlateSpheroid:
         self.freq_vec=np.arange(self.min_freq,self.max_freq,delta_f)
 
         self.solver = solver
+        self.precision_fbs = settings.precision_fbs
 
     def run(self, ts_file_name):
         ParentDIR=os.path.split(os.getcwd())[0]
@@ -135,8 +136,15 @@ class ProlateSpheroid:
             ks=w/self.c_s
             hw=self.d*kw/2
             hs=self.d*ks/2
+<<<<<<< HEAD
             
             N_at_m0_for_hs = 0.75 * hs + np.ceil(10-7*np.sin(self.Theta_i_deg*np.pi/180)) + 5
+=======
+
+            N_at_m0_for_hs = np.ceil(0.75 * hs + 8 - 3*np.sin(self.Theta_i_deg*np.pi/180))
+            if self.precision_fbs < 1e-5:
+                N_at_m0_for_hs = np.ceil(0.75 * hs + 12 - 7*np.sin(self.Theta_i_deg*np.pi/180))
+>>>>>>> 18785ad8f2154e4d055dfcbbfcf932bddec78ec5
 
             m = -1
             if self.c_s < 500:
@@ -208,7 +216,11 @@ class ProlateSpheroid:
 
                 f_b_sum=f_b_sum+f_bm
 
+<<<<<<< HEAD
                 if (np.abs(last_f_bs-f_bm) < 1E-6) or (m >= (M_order_Fortran-1)):
+=======
+                if (np.abs(last_f_bs-f_bm) < self.precision_fbs) or (m >= (M_order_Fortran-1)):
+>>>>>>> 18785ad8f2154e4d055dfcbbfcf932bddec78ec5
                     CHECK_fbm_value = False
 
                 last_f_bs = f_bm
@@ -246,8 +258,10 @@ class ProlateSpheroid:
         ks=w/self.c_s
         hw=self.d*kw/2
         hs=self.d*ks/2
-        
-        N_at_m0_for_hs = 0.75 * hs + np.ceil(10-7*np.sin(self.Theta_i_deg*np.pi/180))
+
+        N_at_m0_for_hs = np.ceil(0.75 * hs + 8 - 3*np.sin(self.Theta_i_deg*np.pi/180))
+        if self.precision_fbs < 1e-5:
+            N_at_m0_for_hs = np.ceil(0.75 * hs + 12 - 7*np.sin(self.Theta_i_deg*np.pi/180))
 
         if self.c_s < 500:
             M_order = 0.5 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 8
@@ -314,7 +328,7 @@ class ProlateSpheroid:
 
             print('m: ',str(m), ' of ',str(M_order), ', N: ', str(N_order))
 
-            if (np.max(np.abs(last_f_bs-pattern_m)) < 1E-5) or (m >= M_order_Fortran):
+            if np.max(np.abs(last_f_bs-pattern_m)) < self.precision_fbs or m >= M_order_Fortran-1:
                 CHECK_fbm_value = False
 
             last_f_bs = pattern_m

@@ -22,8 +22,11 @@ class UserDefinedSettings:
         self.min_freq = 50000       # the start frequency [Hz]
         self.max_freq = 56100       # the end frequency [Hz]
 
-        #incidence angle
+        #incident angle
         self.theta_i_deg = 60       # the incidence angle [degrees]
+
+        # precision
+        self.precision_fbs = 1e-6
 
 
 if __name__ == '__main__':
