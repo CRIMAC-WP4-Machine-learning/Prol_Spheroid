@@ -137,7 +137,7 @@ class ProlateSpheroid:
             hw=self.d*kw/2
             hs=self.d*ks/2
 
-            N_at_m0_for_hs = np.ceil(0.75 * hs + 8 - 3*np.sin(self.Theta_i_deg*np.pi/180))
+            N_at_m0_for_hs = np.ceil(0.75 * hs + 8 - 5*np.sin(self.Theta_i_deg*np.pi/180))
             if self.precision_fbs < 1e-5:
                 N_at_m0_for_hs = np.ceil(0.75 * hs + 12 - 7*np.sin(self.Theta_i_deg*np.pi/180))
 
