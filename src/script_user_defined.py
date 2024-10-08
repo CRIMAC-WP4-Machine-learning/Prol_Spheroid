@@ -14,8 +14,8 @@ class UserDefinedSettings:
         self.c_s = 1600             # the sound speed in the spheroid [m/s]
 
         # geometrical properties
-        self.a = 0.06               # the length of the semi-major axis [m]
-        self.b = 0.02               # the length of the semi-minor axis [m]
+        self.a = 0.05               # the length of the semi-major axis [m]
+        self.b = 0.005               # the length of the semi-minor axis [m]
 
         # frequencies
         self.delta_f = 2000         # the distance between frequencies [Hz]

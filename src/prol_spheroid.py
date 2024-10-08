@@ -461,7 +461,7 @@ def func_Generate_Partition_Matrices(content_Rad_SWF_hs, content_dr_values_hs, c
         nn=-1
         ll=ll+1
         
-        for n in range(_m + _N_row_start , _N_row_end + _m):  # n index Loop: n=m,1,2,...,N : This fills the rows in Matrices
+        for _n in range(_m + _N_row_start , _N_row_end + _m):  # n index Loop: n=m,1,2,...,N : This fills the rows in Matrices
             nn=nn+1
             ## PSWF values ==================================================================================================
 #                Smn_hw_eta_is=func_Ang_SWF(content_Ang_SWF_hw, m, n , N_order) #func_Adelman_Smn_Const_Eta_fof_c(DirPSWF, Theta_i_deg, m, n, hw, Prec)  # Prolate spheroidal angular function of the first kind >> S(m,n,hw,cos(Theta_i))
@@ -469,15 +469,15 @@ def func_Generate_Partition_Matrices(content_Rad_SWF_hs, content_dr_values_hs, c
 #                Smn_hw_eta_s=Smn_hw_eta_is[1]
 #                Nmn_hw=func_Adelman_Nmn_of_c(DirPSWF, m, n, hw, Prec)
             Nmn_hw=1
-            dmn_r_hw_ArgExp=func_dr_values_ArgExp(content_dr_values_hw, _m, n , N_order_Fortran)# func_Adelman_dr_mn_of_c(DirPSWF, m, n, hw, Prec)
+            dmn_r_hw_ArgExp=func_dr_values_ArgExp(content_dr_values_hw, _m, _n , N_order_Fortran)# func_Adelman_dr_mn_of_c(DirPSWF, m, n, hw, Prec)
             
-            R_mn_hw_kisi0=func_Rad_SWF_ArgExp(content_Rad_SWF_hw, _m, n , N_order_Fortran) #func_Adelman_Rmn(DirPSWF, AspRatio, m, n, hw, Prec) # Prolate spheroidal radial function of the first kind >>  R1(m,n,hw,kisi0)
+            R_mn_hw_kisi0=func_Rad_SWF_ArgExp(content_Rad_SWF_hw, _m, _n , N_order_Fortran) #func_Adelman_Rmn(DirPSWF, AspRatio, m, n, hw, Prec) # Prolate spheroidal radial function of the first kind >>  R1(m,n,hw,kisi0)
           
             eta_i=np.cos(np.pi*Theta_i_deg/180)
-            Smn_hw_eta_i=func_Smn_eta_c_from_dr_ArgExp(_m, n, eta_i, dmn_r_hw_ArgExp)
+            Smn_hw_eta_i=func_Smn_eta_c_from_dr_ArgExp(_m, _n, eta_i, dmn_r_hw_ArgExp)
             
             eta_s=np.cos(np.pi*Theta_s_deg/180)
-            Smn_hw_eta_s=func_Smn_eta_c_from_dr_ArgExp(_m, n, eta_s, dmn_r_hw_ArgExp)
+            Smn_hw_eta_s=func_Smn_eta_c_from_dr_ArgExp(_m, _n, eta_s, dmn_r_hw_ArgExp)
             
             R1_mn_hw_kisi0 = R_mn_hw_kisi0[0] # [Arg, Exp]
             dR1_mn_hw_kisi0 = R_mn_hw_kisi0[1]
@@ -489,7 +489,7 @@ def func_Generate_Partition_Matrices(content_Rad_SWF_hs, content_dr_values_hs, c
 
                
             # Calculate Coefficient ------------------------------------------
-            C_n_m=Multi_ArgExp(Get_ArgExp((1j**n)*Em),Smn_hw_eta_i) #(1j**n)*Em*Smn_hw_eta_i/Nmn_hw
+            C_n_m=Multi_ArgExp(Get_ArgExp((1j**_n)*Em),Smn_hw_eta_i) #(1j**n)*Em*Smn_hw_eta_i/Nmn_hw
 #                 D_nl_m = (ro_s/ro_w)*dR3_mn_hw_kisi0*R1_ml_hs_kisi0 - R3_mn_hw_kisi0*dR1_ml_hs_kisi0
             D_nl_m = Multi_ArgExp(Get_ArgExp(ro_s/ro_w), Multi_ArgExp(dR3_mn_hw_kisi0, R1_ml_hs_kisi0))
             D_nl_m = Sum_ArgExp(D_nl_m, Multi_ArgExp([-1,0], Multi_ArgExp(R3_mn_hw_kisi0, dR1_ml_hs_kisi0)))
@@ -498,7 +498,7 @@ def func_Generate_Partition_Matrices(content_Rad_SWF_hs, content_dr_values_hs, c
             F_nl_m = Multi_ArgExp(Get_ArgExp(ro_s/ro_w), Multi_ArgExp(dR1_mn_hw_kisi0, R1_ml_hs_kisi0 )) 
             F_nl_m = Sum_ArgExp(F_nl_m, Multi_ArgExp([-1,0], Multi_ArgExp(R1_mn_hw_kisi0, dR1_ml_hs_kisi0))) 
             
-            Beta_nl_m=func_Integrate_SmnEta1_SmlEta2_ArgExp(_m, n, l, dmn_r_hw_ArgExp, dml_r_hs_ArgExp)
+            Beta_nl_m=func_Integrate_SmnEta1_SmlEta2_ArgExp(_m, _n, l, dmn_r_hw_ArgExp, dml_r_hs_ArgExp)
 
 
             # Filling the l_th column

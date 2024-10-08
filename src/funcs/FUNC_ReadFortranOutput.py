@@ -104,6 +104,7 @@ def func_dr_values_ArgExp(content1, m, l , lnum):
         ix=1
     
     dr_vec=np.zeros(ix+1+2*len(enr_vec),dtype='float') 
+#    print('l, m, l-m, len(dr_vec), len(enr_vec)',l, m, l-m, len(dr_vec),len(enr_vec))
     dr_vec[l-m]=d_l_minus_m
     
     dr_vec_argExp=np.zeros((ix+1+2*len(enr_vec),2),dtype='float')  
@@ -115,8 +116,8 @@ def func_dr_values_ArgExp(content1, m, l , lnum):
     for ii in range(l-m-2,0-1,-2):
     #    print(ii)
         enr_Indx=int(np.floor(ii/2))
-        if np.abs(enr_vec[enr_Indx]) < 1E-18:
-            enr_vec[enr_Indx]=1E-18
+        if np.abs(enr_vec[enr_Indx]) < 1E-30:
+            enr_vec[enr_Indx]=1E-30
     #    print(enr_Indx)
         dr_vec[ii]=round(dr_vec[ii+2]/enr_vec[enr_Indx],17)
         if np.isnan(dr_vec[ii]):
@@ -440,7 +441,7 @@ def func_Integrate_SmnEta1_SmlEta2_ArgExp(_m, _n, _l, _dmn_r_h1_vec, _dml_r_h2_v
 
     
     Sum_r_terms=np.zeros((2),dtype='float')
-    R_terms=150
+    R_terms=170
     for rr in range(0,min(int(len(_dmn_r_h1_vec)/2), int(len(_dml_r_h2_vec)/2), R_terms)):
         if ((_n + _m) % 2)==0:
             rr=2*rr
