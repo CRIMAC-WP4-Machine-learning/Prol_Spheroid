@@ -150,8 +150,10 @@ class ILUPreconditioner:
 
 class BiCGSTABSolver:
 
-    def __init__(self, preconditioner, tol=1.e-5):
-        self.preconditioner = preconditioner
+    def __init__(self, preconditioner_type='ILU', tol=1.e-5):
+        self.preconditioner = ILUPreconditioner()
+        if preconditioner_type != 'ILU':
+            raise ValueError('Pre-conditioner type {} is not implemented'.format(preconditioner_type))
         self.tol = tol
 
     def solve(self, A, b):
@@ -170,8 +172,10 @@ class BiCGSTABSolver:
 
 class GMResSolver:
 
-    def __init__(self, preconditioner, tol=1.e-5):
-        self.preconditioner = preconditioner
+    def __init__(self, preconditioner_type='ILU', tol=1.e-5):
+        self.preconditioner = ILUPreconditioner()
+        if preconditioner_type != 'ILU':
+            raise ValueError('Pre-conditioner type {} is not implemented'.format(preconditioner_type))
         self.tol = tol
 
     def solve(self, A, b):
