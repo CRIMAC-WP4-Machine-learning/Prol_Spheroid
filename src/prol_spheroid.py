@@ -137,9 +137,10 @@ class ProlateSpheroid:
             hw=self.d*kw/2
             hs=self.d*ks/2
 
-            N_at_m0_for_hs = np.ceil(0.75 * hs + 8 - 3*np.sin(self.Theta_i_deg*np.pi/180))
+            N_at_m0_for_hs = np.ceil(0.75 * hs + 8 - 5*np.sin(self.Theta_i_deg*np.pi/180))
             if self.precision_fbs < 1e-5:
                 N_at_m0_for_hs = np.ceil(0.75 * hs + 12 - 7*np.sin(self.Theta_i_deg*np.pi/180))
+
 
             m = -1
             if self.c_s < 500:
@@ -194,9 +195,9 @@ class ProlateSpheroid:
 
 
                 if hs > 60 :
-                    N_order = N_at_m0_for_hs - 0.033*(m**2) - (80/N_at_m0_for_hs)*(m)
+                    N_order = N_at_m0_for_hs - 0.033*(m**2) - (80/N_at_m0_for_hs)*(m) 
                 else:
-                    N_order = N_at_m0_for_hs - 1*(m)
+                    N_order = N_at_m0_for_hs - 1*(m) 
 
                 N_order = int(np.ceil(N_order))
 
@@ -210,8 +211,15 @@ class ProlateSpheroid:
 
 
                 f_b_sum=f_b_sum+f_bm
+                
+                if m==0:
+                    f_b_max = np.abs(f_b_sum)
+                else:
+                    f_b_max = np.max([np.abs(f_b_sum), np.abs(f_b_sum)])
+                
+#                if (np.abs(last_f_bs-f_bm) < self.precision_fbs) or (m >= (M_order_Fortran-1)):
+                if (np.abs(last_f_bs-f_bm) < f_b_max*(1E-2)) or (m >= (M_order_Fortran-1)):
 
-                if (np.abs(last_f_bs-f_bm) < self.precision_fbs) or (m >= (M_order_Fortran-1)):
                     CHECK_fbm_value = False
 
                 last_f_bs = f_bm
