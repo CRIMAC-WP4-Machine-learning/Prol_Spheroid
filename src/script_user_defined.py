@@ -1,5 +1,5 @@
 from prol_spheroid import ProlateSpheroid
-from IterativeSolvers import BiCGSTABSolver, ILUPreconditioner
+from IterativeSolvers import BiCGSTABSolver
 import os
 
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
     os.environ['PATH'] += os.pathsep + os.path.abspath(r'C:\bin\mingw64\bin')
 
     user_defined_settings = UserDefinedSettings()
-    solver = BiCGSTABSolver(ILUPreconditioner())
+    solver = BiCGSTABSolver('ILU')
     ts_file_name = 'ts_vs_freq_loop_{}_a_{}_b_{}_f1_{}_f2_{}_rhos_{:.2f}_IncAngle_{}_{}.csv'.format(user_defined_settings.prefix,
                                                                                                     user_defined_settings.a, user_defined_settings.b,
                                                                                                     int(user_defined_settings.min_freq / 1000),
