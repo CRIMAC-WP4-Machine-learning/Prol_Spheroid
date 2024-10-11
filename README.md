@@ -44,7 +44,7 @@ Optionally you can define your own settings in src/script_user_defined.py, and r
 python3 script_user_defined.py
 ```
 
-The scripts assumes that they are run from the src directory.
+The scripts assume that they are run from the src directory. Running the scripts outside of this directory causes errors. 
 
 ## Verification results
 
