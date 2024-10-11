@@ -1,4 +1,4 @@
-# High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles
+# High-Precision model and open-source software for acoustic backscattering by liquid- and gas-filled prolate spheroid across a wide frequency range and tilt angles: implications for fisheries acoustics
 
 <b>Code for backscattering calculations of penetrable (gas or fluid) prolate spheroids 
 with high precision for a wide range of tilt angles and large frequency ranges used 
