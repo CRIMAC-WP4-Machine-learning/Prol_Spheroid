@@ -1,4 +1,4 @@
-from prol_spheroid import ProlateSpheroid
+from prol_spheroid_vectorized import ProlateSpheroid
 from IterativeSolvers import BiCGSTABSolver
 import os
 
