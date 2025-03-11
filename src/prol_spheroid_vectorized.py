@@ -126,7 +126,7 @@ class ProlateSpheroid:
         script_path1 = os.path.join(ParentDIR, 'src', 'Run_param_fort_FromPython.py')
         print(script_path1)
         # Run Python Script:
-        subprocess.run(['python', script_path1], capture_output=True, text=True)
+        subprocess.run(['python3', script_path1], capture_output=True, text=True)
         #>>>>>>>>>
         #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
         #|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
@@ -175,7 +175,7 @@ class ProlateSpheroid:
             
             #print(script_path)
             # Run Fortran:
-            subprocess.run(['python', script_path], capture_output=True, text=True)
+            subprocess.run(['python3', script_path], capture_output=True, text=True)
             #>>>>>>>>>
 
             content_Rad_SWF_hs=infunc_content_Rad_SWF(ParentDIR)
@@ -192,7 +192,7 @@ class ProlateSpheroid:
 
 
             # Run Fortran:
-            subprocess.run(['python', script_path], capture_output=True, text=True)
+            subprocess.run(['python3', script_path], capture_output=True, text=True)
             #>>>>>>>>>
             content_Rad_SWF_hw=infunc_content_Rad_SWF(ParentDIR)
             #    content_Ang_SWF_hw=infunc_content_Ang_SWF()
@@ -272,7 +272,7 @@ class ProlateSpheroid:
         script_path1 = ParentDIR+'/src/'+'Run_param_fort_FromPython.py'
         print(script_path1)
         # Run Python Script:
-        subprocess.run(['python', script_path1], capture_output=True, text=True)
+        subprocess.run(['python3', script_path1], capture_output=True, text=True)
 
         f = freq_Hz
 
@@ -308,7 +308,7 @@ class ProlateSpheroid:
         script_path = ParentDIR+'/src/'+'Run_profcn_II_fort_FromPython.py'
         print(script_path)
         # Run Fortran:
-        subprocess.run(['python', script_path], capture_output=True, text=True)
+        subprocess.run(['python3', script_path], capture_output=True, text=True)
         #>>>>>>>>>
 
         content_Rad_SWF_hs=infunc_content_Rad_SWF(ParentDIR)
@@ -322,7 +322,7 @@ class ProlateSpheroid:
         write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, ParentDIR)
 
         # Run Fortran:
-        subprocess.run(['python', script_path], capture_output=True, text=True)
+        subprocess.run(['python3', script_path], capture_output=True, text=True)
         #>>>>>>>>>
         content_Rad_SWF_hw=infunc_content_Rad_SWF(ParentDIR)
         #    content_Ang_SWF_hw=infunc_content_Ang_SWF()

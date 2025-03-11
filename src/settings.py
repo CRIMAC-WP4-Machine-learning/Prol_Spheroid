@@ -47,7 +47,7 @@ class AirFilledSettings:
         #self.min_freq = 100000
         #self.max_freq = 300100
         self.min_freq = 38000
-        self.max_freq = 300100
+        self.max_freq = 100100
 
         # incident angle
         self.theta_i_deg = 90
