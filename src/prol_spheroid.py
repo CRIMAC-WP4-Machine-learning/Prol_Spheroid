@@ -141,7 +141,6 @@ class ProlateSpheroid:
             if self.precision_fbs < 1e-5:
                 N_at_m0_for_hs = np.ceil(0.75 * hs + 12 - 7*np.sin(self.Theta_i_deg*np.pi/180))
 
-
             m = -1
             if self.c_s < 500:
                 M_order = 0.5 * (self.c_s/self.c_w) * (np.sin(self.Theta_i_deg*np.pi/180)**3) *  hs  + 8
@@ -248,7 +247,7 @@ class ProlateSpheroid:
         script_path1 = ParentDIR+'/src/'+'Run_param_fort_FromPython.py'
         print(script_path1)
         # Run Python Script:
-        subprocess.run(['python', script_path1], capture_output=True, text=True)
+        subprocess.run(['python3', script_path1], capture_output=True, text=True)
 
         f = freq_Hz
 
@@ -284,7 +283,7 @@ class ProlateSpheroid:
         script_path = ParentDIR+'/src/'+'Run_profcn_II_fort_FromPython.py'
         print(script_path)
         # Run Fortran:
-        subprocess.run(['python', script_path], capture_output=True, text=True)
+        subprocess.run(['python3', script_path], capture_output=True, text=True)
         #>>>>>>>>>
 
         content_Rad_SWF_hs=infunc_content_Rad_SWF(ParentDIR)
@@ -298,7 +297,7 @@ class ProlateSpheroid:
         write_Inputfile(c_nondimensional,self.AspRatio,M_order_Fortran,N_order_Fortran,Theta_IncDeg, ParentDIR)
 
         # Run Fortran:
-        subprocess.run(['python', script_path], capture_output=True, text=True)
+        subprocess.run(['python3', script_path], capture_output=True, text=True)
         #>>>>>>>>>
         content_Rad_SWF_hw=infunc_content_Rad_SWF(ParentDIR)
         #    content_Ang_SWF_hw=infunc_content_Ang_SWF()
@@ -601,11 +600,11 @@ def Calculate_fbm(content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw, 
 
 
 def calculate_fbs(num_angles_per_half_plane, content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw, content_dr_values_hw, Theta_i_deg, m,
-                  N_order_Fortran, N_order, solver, ro_s, ro_w, kw):
+                  N_order_Fortran, _N_order, solver, ro_s, ro_w, kw):
     N_col_start = 0
-    N_col_end = N_order
+    N_col_end = _N_order
     N_row_start = 0
-    N_row_end = N_order
+    N_row_end = _N_order
 
     [C_Beta_D_Matrix_Arg,
      C_Beta_D_Matrix_Exp,
