@@ -46,6 +46,11 @@ python3 script_user_defined.py
 
 The scripts assume that they are run from the src directory. Running the scripts outside of this directory causes errors. 
 
+A Fortran compiler (e.g., gfortran) must be installed for the scripts to run. This is not included in requirements.txt 
+
+## Optimized version 
+The improved performance version is accessible in the vectorized branch.
+
 ## Verification results
 
 A number of test cases has been calculated using COMSOL Multiphysics. These 
