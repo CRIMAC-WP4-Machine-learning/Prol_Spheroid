@@ -158,7 +158,6 @@ class ProlateSpheroid:
             M_order_Fortran = M_order
             N_order_Fortran = int(np.ceil(N_at_m0_for_hs))
 
-
             # Write the Fortran's input file
             # hs:-------------------------------------------------------------------
             c_nondimensional=hs

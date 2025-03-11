@@ -6,21 +6,21 @@ class LiquidFilledSettings:
         self.prefix = 'liquid'
         # media properties (w:media surrounding the spheroid, s:spheroid)
         self.ro_w = 1027
-        self.ro_s = 1027 * 0.25
+        self.ro_s = 1027 * 0.05
         self.c_w = 1500
-        self.c_s = 1500 * 0.25
+        self.c_s = 1500 * 0.05
 
         # geometrical properties
-        self.a = 0.1
-        self.b = 0.005
+        self.a = 0.08
+        self.b = 0.02
 
         # frequencies
-        self.delta_f = 1000
-        self.min_freq = 75000
-        self.max_freq = 75100
+        self.delta_f = 2000
+        self.min_freq = 28000
+        self.max_freq = 750100
 
         #incident angle
-        self.theta_i_deg = 15
+        self.theta_i_deg = 90
 
         #precision
         self.precision_fbs = 1e-6
