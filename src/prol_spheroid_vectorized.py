@@ -231,14 +231,16 @@ class ProlateSpheroid:
                 print('m: ',str(m), ' of ',str(M_order), ', N: ', str(N_order))
 
                 f_b_sum=f_b_sum+f_bm
-
+                f_b_sum = f_b_sum.item()
+                
                 if m==0:
                     f_b_max = np.abs(f_b_sum)
                 else:
                     f_b_max = np.max([np.abs(f_b_sum), np.abs(f_b_sum)])
-                
+
+
 #                if (np.abs(last_f_bs-f_bm) < self.precision_fbs) or (m >= (M_order_Fortran-1)):
-                if (np.abs(last_f_bs-f_bm) < f_b_max*(1E-2)) or (m >= (M_order_Fortran-1)):
+                if (np.abs(last_f_bs-f_bm) < np.abs(f_b_max*(1E-2))) or (m >= (M_order_Fortran-1)):
                     CHECK_fbm_value = False
 
                 last_f_bs = f_bm
