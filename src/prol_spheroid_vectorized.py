@@ -208,11 +208,11 @@ class ProlateSpheroid:
 
 
                 if hs > 60 :
-                    N_order = N_at_m0_for_hs - 0.033*(m**2) - (80/N_at_m0_for_hs)*(m) 
+                    N_order = N_at_m0_for_hs - 0.031*(m**2) - (80/N_at_m0_for_hs)*(m) 
                 else:
                     N_order = N_at_m0_for_hs - 1*(m) 
 
-                N_order = int(np.ceil(N_order))
+                N_order = np.max([1,int(np.ceil(N_order))])
 
                 # Estimate fbm_1 for the initial selected N_order                
                 [f_bm] = Calculate_fbm_vectorized(content_Rad_SWF_hs, content_dr_values_hs, content_Rad_SWF_hw,
