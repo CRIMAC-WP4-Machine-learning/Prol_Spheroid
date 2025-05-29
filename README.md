@@ -8,6 +8,8 @@ The code accompany the paper "High-Precision model for acoustic backscattering b
 
 The current release "ProlateSpheroidv0.9" is the release corresponding to the submission of the manuscript.
 
+See the "vectorized" branch for a faster implementation of the code.
+
 The code is written in Python and uses "A.L. Van-Buren, Mathieu and spheroidal wave 
 functions fortran programs for their accurate calculation., (n.d.). https://github.com/mathieuandspheroidalwavefunctions." for the expansion coefficients with the Meixner and Schafke normalization scheme, 
 and the prolate spheroidal radial functions of the first and second kind and their derivatives, <br><br>
