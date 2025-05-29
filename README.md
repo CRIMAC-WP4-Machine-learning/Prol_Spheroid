@@ -4,8 +4,7 @@
 with high precision for a wide range of tilt angles and large frequency ranges used 
 in fisheries acoustics.</b>
 
-The code accompany the manuscript "High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles – Implications in fisheries acoustics" (Khodabandeloo et al.) 
-submitted to the Journal of Sound and Vibration for review.
+The code accompany the paper "High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles – Implications in fisheries acoustics" published in the Journal of Sound and Vibration. 
 
 The current release "ProlateSpheroidv0.9" is the release corresponding to the submission of the manuscript.
 
