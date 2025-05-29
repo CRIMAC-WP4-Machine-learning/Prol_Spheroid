@@ -80,15 +80,19 @@ pip install -r requirements.txt
 
 ## Citing the code
 
-If you use the code for you research, please cite the article once published (it is currently under review in the Journal of Sound and Vibration)
+If you use the code for you research, please cite the paper published in the ournal of Sound and Vibration.
 
 ```
-@article{khodabandeloo2024prolate,
-  title={High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles – Implications in fisheries acoustics},
-  author={Babak Khodabandeloo, Yngve Heggelund, Bjørnar Ystad, Geir Pedersen},
-  journal={Journal of Sound and Vibration},
-  pages={in review},
-  year={in review},
-  publisher={Elsevier}
+@article{KHODABANDELOO2025119227,
+title = {High-precision model and open-source software for acoustic backscattering by liquid- and gas-filled prolate spheroids across a wide frequency range and incident angles: Implications for fisheries acoustics},
+journal = {Journal of Sound and Vibration},
+pages = {119227},
+year = {2025},
+issn = {0022-460X},
+doi = {https://doi.org/10.1016/j.jsv.2025.119227},
+url = {https://www.sciencedirect.com/science/article/pii/S0022460X25003013},
+author = {Babak Khodabandeloo and Yngve Heggelund and Bjørnar Ystad and Sander Andre Berg Marx and Geir Pedersen},
+keywords = {Target Strength, Prolate Spheroid, Spheroidal wave functions, Fish body, Swimbladder, Modal series solution},
+abstract = {Among the few geometries with analytical scattering solutions, the prolate spheroid is perhaps one of the best representative models for various marine organisms or their dominant scattering organs. The mathematical formulation for the exact solution of scattering from prolate spheroids is well-established and known. However, solving these equations presents challenges, including difficulties in efficiently and stably estimating prolate spheroidal wave functions (PSWFs), handling numerical overflow or underflow, and addressing ill-conditioned systems of equations. These issues are addressed in this work, and the model provides stable and precise solutions for both gas- and liquid-filled prolate spheroids across all incident angles and over a wide frequency range. Additionally, the required number of terms to truncate the infinite series of scattering modes is investigated, and empirical formulas are provided. The calculated backscattering results are validated for aspect ratios (i.e., ratio of the longest to the shortest dimension of the prolate spheroid) of up to 10 by comparison with those estimated using finite element methods (FEM). An open-source software package developed with Python and Fortran, is provided alongside this paper.}
 }
 ```
