@@ -80,10 +80,12 @@ If you use the code for you research, please cite the article once published (it
 ```
 @article{khodabandeloo2024prolate,
   title={High-Precision model for acoustic backscattering by liquid and gas filled prolate spheroid over a wide frequency range and tilt angles – Implications in fisheries acoustics},
-  author={Babak Khodabandeloo, Yngve Heggelund, Bjørnar Ystad, Geir Pedersen},
+  author={Babak Khodabandeloo, Yngve Heggelund, Bjørnar Ystad, Sander Andre Berg Marx, Geir Pedersen},
   journal={Journal of Sound and Vibration},
+  volume={616}
   pages={in review},
-  year={in review},
+  year={2025},
   publisher={Elsevier}
+  doi={https://doi.org/10.1016/j.jsv.2025.119227}
 }
 ```
